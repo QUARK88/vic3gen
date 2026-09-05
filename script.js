@@ -85,7 +85,7 @@ document.getElementById("lawBackdrop").addEventListener("click", event => {
 function setLaw(law, lawElement, group, category) {
     lawElement.querySelector(".icon").src = law.icon
     lawElement.querySelector(".lawName").textContent = law.name
-    lawElement.title = law.description
+    lawElement.title = `${law.name}\n\n${law.description}`
     localStorage.setItem(`law_${group.id}_${category.id}`, law.name)
 }
 
