@@ -121,4 +121,17 @@ document.getElementById("download").addEventListener("click", async () => {
     }
 })
 
+document.getElementById("randomize").addEventListener("click", () => {
+    lawsData.groups.forEach(group => {
+        group.categories.forEach(category => {
+            const lawElement = document.querySelector(
+                `#${group.id} .law[data-category="${category.id}"]`
+            )
+
+            const law = category.laws[Math.floor(Math.random() * category.laws.length)]
+            setLaw(law, lawElement, group, category)
+        })
+    })
+})
+
 loadLaws()
