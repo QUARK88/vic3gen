@@ -1,0 +1,816 @@
+{
+  "groups": [
+    {
+      "name": "Power Structure",
+      "id": "power",
+      "categories": [
+        {
+          "name": "Governance Principles",
+          "id": "governance",
+          "laws": [
+            {
+              "name": "Monarchy",
+              "icon": "icons/power/governance/monarchy.png",
+              "description": "A form of governance where an aristocratic dynasty represents the country's national identity and yields executive powers to the royal head of the dynasty."
+            },
+            {
+              "name": "Colonial Administration",
+              "icon": "icons/power/governance/colonial_administration.png",
+              "description": "The state is legally an administrative sub-division of a foreign power, possessing no sovereignty of its own. It is delegated powers with which to administer a given territory on the behalf of the metropole."
+            },
+            {
+              "name": "Presidential Republic",
+              "icon": "icons/power/governance/presidential_republic.png",
+              "description": "A political system where power is held by the people and their elected representatives. Republics have an elected or nominated President as Head of State."
+            },
+            {
+              "name": "Parliamentary Republic",
+              "icon": "icons/power/governance/parliamentary_republic.png",
+              "description": "A political system where power is held by the people and their elected representatives. The leader of the legislature acts as the Head of State and is referred to as Chancellor."
+            },
+            {
+              "name": "Theocracy",
+              "icon": "icons/power/governance/theocracy.png",
+              "description": "The government is ruled by a clergy and their interpretation of holy scripture. The Head of State is nominally the person of worship, though in practice a worldly representative selected by merit, status, or birth."
+            },
+            {
+              "name": "Council Republic",
+              "icon": "icons/power/governance/council_republic.png",
+              "description": "A political system where workers elect delegates to local councils. Extends concepts of workplace organization to general governance."
+            },
+            {
+              "name": "Corporate State",
+              "icon": "icons/power/governance/corporate_state.png",
+              "description": "A political system based around institutionalized collaboration between officially recognized corporate groups. The state serves as a forum for negotiation between different social classes."
+            },
+            {
+              "name": "Social Monarchy",
+              "icon": "icons/power/governance/social_monarchy.png",
+              "description": "A political system in which the state positions itself as the ultimate mediator between the nation's corporate groups. The monarchy is held to be a symbol of the country's national identity."
+            },
+            {
+              "name": "Chiefdom",
+              "icon": "icons/power/governance/chiefdom.png",
+              "description": "A hierarchical pre-industrial political system based on kinship, with a warlord or elder of a prominent family at the head. It is incapable of efficient centralized control over entire states."
+            }
+          ]
+        },
+        {
+          "name": "Distribution of Power",
+          "id": "distribution",
+          "laws": [
+            {
+              "name": "Autocracy",
+              "icon": "icons/power/distribution/autocracy.png",
+              "description": "The Head of State's power is absolute and they are held accountable to no earthly power."
+            },
+            {
+              "name": "Technocracy",
+              "icon": "icons/power/distribution/technocracy.png",
+              "description": "The nation is governed by an unelected council of men of reason and ability."
+            },
+            {
+              "name": "Oligarchy",
+              "icon": "icons/power/distribution/oligarchy.png",
+              "description": "The Head of State shares power and responsibility with a small group of powerful, unelected individuals."
+            },
+            {
+              "name": "Landed Voting",
+              "icon": "icons/power/distribution/landed_voting.png",
+              "description": "Those who own land or capital property are given a vote."
+            },
+            {
+              "name": "Wealth Voting",
+              "icon": "icons/power/distribution/wealth_voting.png",
+              "description": "Wealthy citizens are granted a vote. Men of more wealth are granted more votes."
+            },
+            {
+              "name": "Census Suffrage",
+              "icon": "icons/power/distribution/census_voting.png",
+              "description": "Literate men of particular status are given a vote."
+            },
+            {
+              "name": "Universal Suffrage",
+              "icon": "icons/power/distribution/universal_suffrage.png",
+              "description": "Every adult man is given an equal vote."
+            },
+            {
+              "name": "Anarchy",
+              "icon": "icons/power/distribution/anarchy.png",
+              "description": "Local communities govern their own affairs and send representatives to serve limited terms on larger cooperative councils. With no formal hierarchies, central authority is difficult to exercise."
+            },
+            {
+              "name": "Single-Party State",
+              "icon": "icons/power/distribution/single_party_state.png",
+              "description": "The state is governed by a single legal political party, which has a monopoly on all political activity within the nation."
+            },
+            {
+              "name": "Elder Council",
+              "icon": "icons/power/distribution/elder_council.png",
+              "description": "The most venerated men have a say in the nation's governance."
+            },
+            {
+              "name": "Neo-Absolutism",
+              "icon": "icons/power/distribution/neo_absolutism.png",
+              "description": "The Head of State rules as an enlightened autocrat, with their rule facilitated by a modern, centralized state apparatus."
+            },
+            {
+              "name": "Bakufu",
+              "icon": "icons/power/distribution/bakufu.png",
+              "description": "Absolute power is vested in the Shōgun, who officially serves in the name of the Emperor."
+            },
+            {
+              "name": "Organic Regulation",
+              "icon": "icons/power/distribution/organic_regulation.png",
+              "description": "This country's government is constituted through a set of \"organic regulations\" imposed by the Great Powers. Its Head of State is appointed by representatives of the boyar oligarchy."
+            }
+          ]
+        },
+        {
+          "name": "Citizenship",
+          "id": "citizenship",
+          "laws": [
+            {
+              "name": "Subjecthood",
+              "icon": "icons/power/citizenship/imperial_subjecthood.png",
+              "description": "The state defines its people foremostly as subjects of a sovereign, making little effort to encourage any official nationality. Cultures are largely left to their own devices within their own communities."
+            },
+            {
+              "name": "Ethnostate",
+              "icon": "icons/power/citizenship/ethnostate.png",
+              "description": "The state considers itself inextricably tied to a certain ethnicity, with other ethnicities barred from citizenship. All foreign cultures are discriminated against."
+            },
+            {
+              "name": "National Supremacy",
+              "icon": "icons/power/citizenship/national_supremacy.png",
+              "description": "The state defines its citizens by compliance with a certain national identity, which is held to be supreme over all others. Foreign cultures are discriminated against unless they share both heritage and language (or other customs)."
+            },
+            {
+              "name": "Racial Segregation",
+              "icon": "icons/power/citizenship/racial_segregation.png",
+              "description": "The state considers citizenship rights to be tied to the concept of shared racial heritage. Foreign cultures of different heritage are discriminated against."
+            },
+            {
+              "name": "Cultural Exclusion",
+              "icon": "icons/power/citizenship/cultural_exclusion.png",
+              "description": "The state offers citizenship rights to people of all cultural identities, whilst considering a certain official identity to be paramount. Foreign cultures with nothing in common with your primary cultures are discriminated against."
+            },
+            {
+              "name": "Multiculturalism",
+              "icon": "icons/power/citizenship/multicultural.png",
+              "description": "The state upholds equal citizenship rights for people of all cultural identities, and makes no attempt to officially uphold a certain culture over others. No cultures are discriminated against."
+            }
+          ]
+        },
+        {
+          "name": "Church and State",
+          "id": "church",
+          "laws": [
+            {
+              "name": "State Religion",
+              "icon": "icons/power/church/state_religion.png",
+              "description": "The church is an official organ of the state. All minority religions are discriminated against."
+            },
+            {
+              "name": "Freedom of Conscience",
+              "icon": "icons/power/church/freedom_of_conscience.png",
+              "description": "The state has an official state religion but the people may choose what to believe. Only particularly exotic religions are discriminated against."
+            },
+            {
+              "name": "Total Separation",
+              "icon": "icons/power/church/total_separation.png",
+              "description": "No church or faith may interfere in government functions. No religion may be discriminated against."
+            },
+            {
+              "name": "State Atheism",
+              "icon": "icons/power/church/state_atheism.png",
+              "description": "Religion is banned from public life, and the state advocates anti-religious policies. All religions face discrimination, and the clergy are allowed little to no role in society."
+            },
+            {
+              "name": "People of the Book",
+              "icon": "icons/power/church/people_of_the_book.png",
+              "description": "The state adheres to the principles of Islamic law. Adherents of other Abrahamic religions are recognized as Dimmi, exempting them from conscription and granting them legal autonomy in return for paying a religious tax."
+            },
+            {
+              "name": "Millet System",
+              "icon": "icons/power/church/people_of_the_book.png",
+              "description": "The state upholds Sunni Islam as the official religion. Adherents of non-Muslim Abrahamic religions are granted a degree of legal autonomy."
+            }
+          ]
+        },
+        {
+          "name": "Bureaucracy",
+          "id": "bureaucracy",
+          "laws": [
+            {
+              "name": "Hereditary Bureaucrats",
+              "icon": "icons/power/bureaucracy/hereditary_bureaucrats.png",
+              "description": "Bureaucrats hold their position through traditional inheritance, passing on the responsiblities to their children."
+            },
+            {
+              "name": "Appointed Bureaucrats",
+              "icon": "icons/power/bureaucracy/appointed_bureaucrats.png",
+              "description": "Bureaucrats are appointed by rulers to serve the country's best interests in exchange for high wages."
+            },
+            {
+              "name": "Elected Bureaucrats",
+              "icon": "icons/power/bureaucracy/elected_bureaucrats.png",
+              "description": "Local governors are elected by their constitutents, decentralizing power while making citizens easier to manage."
+            },
+            {
+              "name": "Crownland Diets",
+              "icon": "icons/power/bureaucracy/crownland_diets.png",
+              "description": "Local governance is carried out by traditional assemblies elected from the ranks of the regional nobility."
+            }
+          ]
+        },
+        {
+          "name": "Army Model",
+          "id": "army",
+          "laws": [
+            {
+              "name": "Peasant Levies",
+              "icon": "icons/power/army/peasant_levies.png",
+              "description": "The army's main force comes from conscripted infantry with zero to basic training."
+            },
+            {
+              "name": "Professional Army",
+              "icon": "icons/power/army/professional_army.png",
+              "description": "The army consists of well-trained, professional regulars."
+            },
+            {
+              "name": "National Militia",
+              "icon": "icons/power/army/national_militia.png",
+              "description": "The standing army is small, but local militias can be activated to defend their homes."
+            },
+            {
+              "name": "Mass Conscription",
+              "icon": "icons/power/army/mass_conscription.png",
+              "description": "Large numbers of infantry conscripts can be activated as needed to supplement the professional army."
+            },
+            {
+              "name": "Warrior Caste",
+              "icon": "icons/power/army/warrior_caste.png",
+              "description": "Bearing arms is a privilege limited to an elite warrior strata. Commoners are barred from serving in combatant roles."
+            }
+          ]
+        },
+        {
+          "name": "Navy Model",
+          "id": "navy",
+          "laws": [
+            {
+              "name": "Merchant Navy",
+              "icon": "icons/power/navy/merchant_fleet.png",
+              "description": "The fleet is focused on the propagation and protection of overseas trade and supply."
+            },
+            {
+              "name": "Jeune École",
+              "icon": "icons/power/navy/torpedos.png",
+              "description": "A naval model prioritizing the use of smaller, heavily armed ships to combat a larger enemy."
+            },
+            {
+              "name": "Capital Fleet",
+              "icon": "icons/power/navy/ocean_domination.png",
+              "description": "Focused on the construction and maintenance of a mighty battlefleet in order to impress and deter rivals."
+            },
+            {
+              "name": "Diplomatic Fleet",
+              "icon": "icons/power/navy/diplomatic_interest.png",
+              "description": "Prioritizing long-range cruising in order to build and maintain a global diplomatic presence."
+            }
+          ]
+        },
+        {
+          "name": "Internal Security",
+          "id": "security",
+          "laws": [
+            {
+              "name": "No Home Affairs",
+              "icon": "icons/power/security/no_home_affairs.png",
+              "description": "The state relies upon conventional military and police forces to suppress unrest and uprisings."
+            },
+            {
+              "name": "National Guard",
+              "icon": "icons/power/security/national_guard.png",
+              "description": "The state maintains an independent volunteer force of citizen-soldiers charged with upholding public order."
+            },
+            {
+              "name": "Secret Police",
+              "icon": "icons/power/security/secret_police.png",
+              "description": "The state possesses a secret police bureau tasked with monitoring dissidents and investigating political crimes."
+            },
+            {
+              "name": "Guaranteed Liberties",
+              "icon": "icons/power/security/guaranteed_liberties.png",
+              "description": "The state's home affairs bureau is solely focused on addressing the grievances of the citizens, and is forbidden from investigating or arresting them without due cause."
+            },
+            {
+              "name": "Shinsengumi",
+              "icon": "icons/power/security/shinsengumi.png",
+              "description": "The state commissions an elite organization of swordsmen to protect government officials and police the capital."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economy",
+      "id": "economy",
+      "categories": [
+        {
+          "name": "Economic System",
+          "id": "system",
+          "laws": [
+            {
+              "name": "Traditionalism",
+              "icon": "icons/economy/system/traditionalism.png",
+              "description": "Pre-industrial subsistence economy with little central control."
+            },
+            {
+              "name": "Interventionism",
+              "icon": "icons/economy/system/interventionism.png",
+              "description": "To ensure the stability of our nation, government must curb the worst excesses of private businesses."
+            },
+            {
+              "name": "Agrarianism",
+              "icon": "icons/economy/system/agrarianism.png",
+              "description": "A rural economy emphasizing agricultural development and community."
+            },
+            {
+              "name": "Industry Banned",
+              "icon": "icons/economy/system/industry_banned.png",
+              "description": "An economic view that rejects heavy industry and automation, preferring the fruits of honest labor over soulless machinery."
+            },
+            {
+              "name": "Extraction Economy",
+              "icon": "icons/economy/system/extraction_economy.png",
+              "description": "A colonial economic system which focuses on maximum extraction of capital for the benefit of the metropole."
+            },
+            {
+              "name": "Laissez-Faire",
+              "icon": "icons/economy/system/laissez_faire.png",
+              "description": "A liberal economy founded on the principles of comparative advantage and that fewer government interventions means greater growth."
+            },
+            {
+              "name": "Cooperative Ownership",
+              "icon": "icons/economy/system/cooperative_ownership.png",
+              "description": "An economic system based around the concept of social ownership, where surplus production is distributed more evenly among the workers."
+            },
+            {
+              "name": "Command Economy",
+              "icon": "icons/economy/system/command_economy.png",
+              "description": "An inward-focused interventionist economy where the government directly manages most aspects of production."
+            }
+          ]
+        },
+        {
+          "name": "Trade Policy",
+          "id": "trade",
+          "laws": [
+            {
+              "name": "Mercantilism",
+              "icon": "icons/economy/trade/mercantilism.png",
+              "description": "An export-focused economy with an emphasis on keeping a positive current account and competing with other nations."
+            },
+            {
+              "name": "Protectionism",
+              "icon": "icons/economy/trade/protectionism.png",
+              "description": "Our industries must be protected from the depredations of foreign market actors."
+            },
+            {
+              "name": "Free Trade",
+              "icon": "icons/economy/trade/free_trade.png",
+              "description": "The free exchange of goods must not be impeded, as trade is for the benefit of all."
+            },
+            {
+              "name": "Isolationism",
+              "icon": "icons/economy/trade/isolationism.png",
+              "description": "An economy focused on supplying the nation's needs internally, while keeping out of the affairs of others."
+            },
+            {
+              "name": "Canton System",
+              "icon": "icons/economy/trade/isolationism.png",
+              "description": "A variant of Isolationism where trade is only permitted in a single coastal state."
+            },
+            {
+              "name": "Sakoku",
+              "icon": "icons/economy/trade/sakoku.png",
+              "description": "A variant of Isolationism where contact with other nations is heavily restricted and trade is limited to only a handful of designated ports."
+            }
+          ]
+        },
+        {
+          "name": "Taxation",
+          "id": "taxation",
+          "laws": [
+            {
+              "name": "Consumption-Based Taxation",
+              "icon": "icons/economy/taxation/consumption_based_taxation.png",
+              "description": "A tax system where there are no direct income or per-capita taxes and instead revenue is raised through taxing the consumption of goods."
+            },
+            {
+              "name": "Land-Based Taxation",
+              "icon": "icons/economy/taxation/land_based_taxation.png",
+              "description": "A traditional form of land-based taxation, collected mainly from the peasantry."
+            },
+            {
+              "name": "Per-Capita Taxation",
+              "icon": "icons/economy/taxation/per_capita_based_taxation.png",
+              "description": "A tax system that disproportionally taxes the poor through a combination of income and per-capita taxes."
+            },
+            {
+              "name": "Proportional Taxation",
+              "icon": "icons/economy/taxation/proportional_taxation.png",
+              "description": "A mainly income-based tax system that tries to ensure everyone pays a roughly equal share of their income to the state."
+            },
+            {
+              "name": "Graduated Taxation",
+              "icon": "icons/economy/taxation/graduated_taxation.png",
+              "description": "A tax system that aims to put the burden of taxation primarily on the well-to-do through high Dividends taxes."
+            }
+          ]
+        },
+        {
+          "name": "Land Reform",
+          "id": "land",
+          "laws": [
+            {
+              "name": "Serfdom",
+              "icon": "icons/economy/land/serfdom.png",
+              "description": "Peasants are tied to their land and must perform labor for their feudal masters."
+            },
+            {
+              "name": "Tenant Farmers",
+              "icon": "icons/economy/land/tenant_farmers.png",
+              "description": "Agricultural land is owned by hereditary elites. Workers are not tied to the land, and may seek alternative employment if they can find it."
+            },
+            {
+              "name": "Commercialized Agriculture",
+              "icon": "icons/economy/land/commercial_agriculture.png",
+              "description": "Agriculture is a business like any other, subject to market forces and owned by capital."
+            },
+            {
+              "name": "Peasant Proprietorship",
+              "icon": "icons/economy/land/freeholders.png",
+              "description": "Agricultural land is largely owned by independent peasant-proprietors, with a scattering of larger commercial estates."
+            },
+            {
+              "name": "Collectivized Agriculture",
+              "icon": "icons/economy/land/collectivized_agriculture.png",
+              "description": "Agricultural land is organized into plots worked by groups of farmers as a joint enterprise."
+            },
+            {
+              "name": "Manorialism",
+              "icon": "icons/economy/land/manorialism.png",
+              "description": "Agricultural land is owned by hereditary elites. Tenants are granted freedom of movement, but are obliged to perform unpaid labor for their landlords."
+            },
+            {
+              "name": "Latifundias",
+              "icon": "icons/economy/land/tenant_farmers.png",
+              "description": "Agricultural land is dominated by vast estates owned by seasonally employed and poorly paid day-laborers."
+            },
+            {
+              "name": "Homesteading",
+              "icon": "icons/economy/land/freeholders.png",
+              "description": "Farmers lay claim to plots of land which they work alongside their hired laborers."
+            }
+          ]
+        },
+        {
+          "name": "Colonization",
+          "id": "colonization",
+          "laws": [
+            {
+              "name": "No Colonial Affairs",
+              "icon": "icons/economy/colonization/no_colonial_affairs.png",
+              "description": "The country does not engage in any formal type of colonization and cannot establish colonies."
+            },
+            {
+              "name": "Frontier Colonization",
+              "icon": "icons/economy/colonization/frontier_colonization.png",
+              "description": "The wild frontiers on our borders are ripe for settlement if they can first be pacified and tamed."
+            },
+            {
+              "name": "Colonial Resettlement",
+              "icon": "icons/economy/colonization/colonial_resettlement.png",
+              "description": "Colonies are established to provide land to settlers from the country's incorporated states."
+            },
+            {
+              "name": "Colonial Exploitation",
+              "icon": "icons/economy/colonization/colonial_exploitation.png",
+              "description": "Colonies are established to exploit the area for their natural resources and cheap labor."
+            }
+          ]
+        },
+        {
+          "name": "Policing",
+          "id": "policing",
+          "laws": [
+            {
+              "name": "No Police",
+              "icon": "icons/economy/policing/no_police.png",
+              "description": "Any sort of structured police force does not exist in this country."
+            },
+            {
+              "name": "Local Police Force",
+              "icon": "icons/economy/policing/local_police.png",
+              "description": "This country has local police forces operating."
+            },
+            {
+              "name": "Dedicated Police Force",
+              "icon": "icons/economy/policing/dedicated_police.png",
+              "description": "This country has a dedicated police force with standardized training."
+            },
+            {
+              "name": "Militarized Police Force",
+              "icon": "icons/economy/policing/militarized_police.png",
+              "description": "By giving your police force military equipment and military training, their effectiveness at carrying out your will increases."
+            }
+          ]
+        },
+        {
+          "name": "Education System",
+          "id": "education",
+          "laws": [
+            {
+              "name": "No Schools",
+              "icon": "icons/economy/education/no_schools.png",
+              "description": "Education is the parents' responsibility. Only the most leisurely citizens learn to read and write."
+            },
+            {
+              "name": "Religious Schools",
+              "icon": "icons/economy/education/religious_schools.png",
+              "description": "Letting the church take care of state education ensures a loyal and morally healthy population."
+            },
+            {
+              "name": "Private Schools",
+              "icon": "icons/economy/education/private_schools.png",
+              "description": "Schooling is best left to private interests who can assure freedom of choice in one's education."
+            },
+            {
+              "name": "Public Schools",
+              "icon": "icons/economy/education/public_schools.png",
+              "description": "Schooling is the responsibility of the state, and should be standardized and equally accessible to all."
+            },
+            {
+              "name": "Terakoya",
+              "icon": "icons/economy/education/private_schools.png",
+              "description": "The education of commoners is left to a decentralized system of privately-owned Terakoya, or temple schools."
+            }
+          ]
+        },
+        {
+          "name": "Health System",
+          "id": "health",
+          "laws": [
+            {
+              "name": "No Health System",
+              "icon": "icons/economy/health/no_health_system.png",
+              "description": "The government does not fund any system of healthcare."
+            },
+            {
+              "name": "Charity Hospitals",
+              "icon": "icons/economy/health/charitable_health_system.png",
+              "description": "Charitable organizations—often religious ones—provide some help to anyone who's sick or dying, to the degree they are able."
+            },
+            {
+              "name": "Private Health Insurance",
+              "icon": "icons/economy/health/private_health_insurance.png",
+              "description": "Population health is managed through a system of privately owned hospitals paid through private health insurance programs, ensuring the well-being of those who can afford it with minimal impact on the government treasury."
+            },
+            {
+              "name": "Public Health Insurance",
+              "icon": "icons/economy/health/public_health_insurance.png",
+              "description": "The government provides a publicly funded health insurance program ensuring equal access to care for all."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Rights",
+      "id": "rights",
+      "categories": [
+        {
+          "name": "Free Speech",
+          "id": "speech",
+          "laws": [
+            {
+              "name": "Outlawed Dissent",
+              "icon": "icons/rights/speech/outlawed_dissent.png",
+              "description": "Criticizing the government is considered treasonous and illegal."
+            },
+            {
+              "name": "Censorship",
+              "icon": "icons/rights/speech/censorship.png",
+              "description": "There is active censorship of the press and no guaranteed right of assembly."
+            },
+            {
+              "name": "Right of Assembly",
+              "icon": "icons/rights/speech/right_of_assembly.png",
+              "description": "Citizens enjoy the right to public assembly."
+            },
+            {
+              "name": "Protected Speech",
+              "icon": "icons/rights/speech/protected_speech.png",
+              "description": "The protection of free speech is enshrined in law."
+            }
+          ]
+        },
+        {
+          "name": "Labor Rights",
+          "id": "labor",
+          "laws": [
+            {
+              "name": "No Workers' Rights",
+              "icon": "icons/rights/labor/no_workers_rights.png",
+              "description": "Workers have no particular labor rights guaranteed by the state."
+            },
+            {
+              "name": "Regulatory Bodies",
+              "icon": "icons/rights/labor/regulatory_bodies.png",
+              "description": "Government institutions have been created to regulate the excesses of employers."
+            },
+            {
+              "name": "Workers' Protections",
+              "icon": "icons/rights/labor/worker_protections.png",
+              "description": "Workers enjoy extensive protections that are enshrined in law."
+            }
+          ]
+        },
+        {
+          "name": "Children's Rights",
+          "id": "children",
+          "laws": [
+            {
+              "name": "Child Labor Allowed",
+              "icon": "icons/rights/children/child_labor_allowed.png",
+              "description": "No legal restrictions are placed on where children may work."
+            },
+            {
+              "name": "Restricted Child Labor",
+              "icon": "icons/rights/children/restricted_child_labor.png",
+              "description": "No child is permitted on the factory floor."
+            },
+            {
+              "name": "Compulsory Primary School",
+              "icon": "icons/rights/children/compulsory_primary_school.png",
+              "description": "All children must attend several years of primary school during which they're prohibited from working."
+            }
+          ]
+        },
+        {
+          "name": "Rights of Women",
+          "id": "women",
+          "laws": [
+            {
+              "name": "Legal Guardianship",
+              "icon": "icons/rights/women/no_womens_rights.png",
+              "description": "Women are legally under the guardianship of men and enjoy very few rights."
+            },
+            {
+              "name": "Propertied Women",
+              "icon": "icons/rights/women/women_own_property.png",
+              "description": "Whether inherited or otherwise earned, even women have the right and duty to own and cherish their possessions."
+            },
+            {
+              "name": "Women in the Workplace",
+              "icon": "icons/rights/women/women_in_the_workplace.png",
+              "description": "How will we be able to keep the furnaces of progress aflame with only half the potential workforce?"
+            },
+            {
+              "name": "Women's Suffrage",
+              "icon": "icons/rights/women/womens_suffrage.png",
+              "description": "In the adjustment of the new order of things, we women demand an equal voice; we shall accept nothing less."
+            },
+            {
+              "name": "Women in the Fields",
+              "icon": "icons/rights/women/women_in_the_fields.png",
+              "description": "A rare rearrangement of gender roles where women are responsible for most labor and agriculture, leaving more men available for war and raiding."
+            }
+          ]
+        },
+        {
+          "name": "Welfare",
+          "id": "welfare",
+          "laws": [
+            {
+              "name": "No Social Security",
+              "icon": "icons/rights/welfare/no_social_security.png",
+              "description": "It is not the state's role to provide for those who cannot provide for themselves."
+            },
+            {
+              "name": "Poor Laws",
+              "icon": "icons/rights/welfare/poor_laws.png",
+              "description": "Getting the tramps and hobos off our streets and into the workhouses is well worth the cost."
+            },
+            {
+              "name": "Wage Subsidies",
+              "icon": "icons/rights/welfare/wage_controls.png",
+              "description": "All who are willing to work have a right to eat. No man should lack the means to provide for his family."
+            },
+            {
+              "name": "Old Age Pension",
+              "icon": "icons/rights/welfare/old_age_pension.png",
+              "description": "There is a practical limit to the age where our workforce is no longer efficient and their subsequent welfare must fall under the purview of government."
+            },
+            {
+              "name": "Šef Paternalism",
+              "icon": "icons/rights/welfare/sefs_distribute_funds.png",
+              "description": "A system where tribal chiefs distrubute funds to the family members in need, as well as to the church and their armed men."
+            }
+          ]
+        },
+        {
+          "name": "Migration",
+          "id": "migration",
+          "laws": [
+            {
+              "name": "No Migration Controls",
+              "icon": "icons/rights/migration/no_migration_controls.png",
+              "description": "The country makes no attempt to control movement across its borders."
+            },
+            {
+              "name": "Migration Controls",
+              "icon": "icons/rights/migration/migration_controls.png",
+              "description": "Only people of cultures and religions not discriminated against may migrate in or out of the country."
+            },
+            {
+              "name": "Closed Borders",
+              "icon": "icons/rights/migration/closed_borders.png",
+              "description": "No migration in or out of the country is permitted."
+            }
+          ]
+        },
+        {
+          "name": "Slavery",
+          "id": "slavery",
+          "laws": [
+            {
+              "name": "Slavery Banned",
+              "icon": "icons/rights/slavery/slavery_banned.png",
+              "description": "No human being may be owned by another."
+            },
+            {
+              "name": "Colonial Slavery",
+              "icon": "icons/rights/slavery/colonial_slavery.png",
+              "description": "The institution of slavery is legal in this country's colonies. Any slave that sets foot upon the mainland is made free."
+            },
+            {
+              "name": "Debt Slavery",
+              "icon": "icons/rights/slavery/debt_slavery.png",
+              "description": "Those who cannot clear their debts instead forefeits their person as their creditor's property."
+            },
+            {
+              "name": "Slave Trade",
+              "icon": "icons/rights/slavery/slave_trade.png",
+              "description": "Demand for cheap labor is fulfilled through a dehumanizing trade in foreign bodies."
+            },
+            {
+              "name": "Legacy Slavery",
+              "icon": "icons/rights/slavery/legacy_slavery.png",
+              "description": "As a compromise between abolitionists and slaveholders, the institution of slavery may continue as long as it does not expand."
+            }
+          ]
+        },
+        {
+          "name": "Labor Associations",
+          "id": "associations",
+          "laws": [
+            {
+              "name": "Guild System",
+              "icon": "icons/rights/associations/guild_system.png",
+              "description": "A system in which eligibility for employment within certain fields is dependent upon membership of a formalized craft or merchant guild."
+            },
+            {
+              "name": "Combination Acts",
+              "icon": "icons/rights/associations/combination_acts.png",
+              "description": "A formation of labor associations of any kind is prohibited by law."
+            },
+            {
+              "name": "Anti-Strike Laws",
+              "icon": "icons/rights/associations/anti_strike_laws.png",
+              "description": "Whilst the formation of labor associations is permitted, strikes and certain forms of collective bargaining are prohibited."
+            },
+            {
+              "name": "Right to Associate",
+              "icon": "icons/rights/associations/right_to_associate.png",
+              "description": "No especial restriction are placed upon the formation and activity of labor associations."
+            },
+            {
+              "name": "Corporatized Unions",
+              "icon": "icons/rights/associations/corporatized_unions.png",
+              "description": "Labor associations are placed under the control of the state, through either mandatory amalgamation into a single national union or the incorporation of existing associations into state functions."
+            },
+            {
+              "name": "Factory Councils",
+              "icon": "icons/rights/associations/factory_councils.png",
+              "description": "Workers have been radicalized by revolutionary conditions, seizing control of their workplaces and supplanting previous management structures."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
