@@ -9,6 +9,7 @@ async function loadLaws() {
         const groupElement = document.getElementById(group.id)
         const groupName = groupElement.querySelector(".groupName")
         groupName.textContent = group.name
+        groupName.href = group.link
         group.categories.forEach(category => {
             const savedLaw = localStorage.getItem(`law_${group.id}_${category.id}`)
             const law = category.laws.find(law => law.name === savedLaw) || category.laws[0]
@@ -44,7 +45,7 @@ function openLawMenu(group, category, lawElement) {
     const backdrop = document.getElementById("lawBackdrop")
     const menu = document.getElementById("lawMenu")
     menu.className = "group"
-    menu.innerHTML = `<div class="groupName">${category.name}</div>`
+    menu.innerHTML = `<a class="groupName" href="${category.link}" title="See the wiki page">${category.name}</a>`
     category.laws.forEach(law => {
         const option = document.createElement("div")
         option.className = "law"

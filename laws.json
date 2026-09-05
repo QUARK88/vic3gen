@@ -3,10 +3,12 @@
     {
       "name": "Power Structure",
       "id": "power",
+      "link": "https://vic3.paradoxwikis.com/Power_structure_laws",
       "categories": [
         {
           "name": "Governance Principles",
           "id": "governance",
+          "link": "https://vic3.paradoxwikis.com/Power_structure_laws#Governance_Principles",
           "laws": [
             {
               "name": "Monarchy",
@@ -58,6 +60,7 @@
         {
           "name": "Distribution of Power",
           "id": "distribution",
+          "link": "https://vic3.paradoxwikis.com/Power_structure_laws#Distribution_of_Power",
           "laws": [
             {
               "name": "Autocracy",
@@ -129,6 +132,7 @@
         {
           "name": "Citizenship",
           "id": "citizenship",
+          "link": "https://vic3.paradoxwikis.com/Power_structure_laws#Citizenship",
           "laws": [
             {
               "name": "Subjecthood",
@@ -165,6 +169,7 @@
         {
           "name": "Church and State",
           "id": "church",
+          "link": "https://vic3.paradoxwikis.com/Power_structure_laws#Church_and_State",
           "laws": [
             {
               "name": "State Religion",
@@ -201,6 +206,7 @@
         {
           "name": "Bureaucracy",
           "id": "bureaucracy",
+          "link": "https://vic3.paradoxwikis.com/Power_structure_laws#Bureaucracy",
           "laws": [
             {
               "name": "Hereditary Bureaucrats",
@@ -227,6 +233,7 @@
         {
           "name": "Army Model",
           "id": "army",
+          "link": "https://vic3.paradoxwikis.com/Power_structure_laws#Army_Model",
           "laws": [
             {
               "name": "Peasant Levies",
@@ -258,6 +265,7 @@
         {
           "name": "Navy Model",
           "id": "navy",
+          "link": "https://vic3.paradoxwikis.com/Power_structure_laws#Navy_Model",
           "laws": [
             {
               "name": "Merchant Navy",
@@ -284,6 +292,7 @@
         {
           "name": "Internal Security",
           "id": "security",
+          "link": "https://vic3.paradoxwikis.com/Power_structure_laws#Internal_Security",
           "laws": [
             {
               "name": "No Home Affairs",
@@ -317,10 +326,12 @@
     {
       "name": "Economy",
       "id": "economy",
+      "link": "https://vic3.paradoxwikis.com/Economy_laws",
       "categories": [
         {
           "name": "Economic System",
           "id": "system",
+          "link": "https://vic3.paradoxwikis.com/Economy_laws#Economic_System",
           "laws": [
             {
               "name": "Traditionalism",
@@ -367,6 +378,7 @@
         {
           "name": "Trade Policy",
           "id": "trade",
+          "link": "https://vic3.paradoxwikis.com/Economy_laws#Trade_Policy",
           "laws": [
             {
               "name": "Mercantilism",
@@ -403,6 +415,7 @@
         {
           "name": "Taxation",
           "id": "taxation",
+          "link": "https://vic3.paradoxwikis.com/Economy_laws#Taxation",
           "laws": [
             {
               "name": "Consumption-Based Taxation",
@@ -434,6 +447,7 @@
         {
           "name": "Land Reform",
           "id": "land",
+          "link": "https://vic3.paradoxwikis.com/Economy_laws#Land_Reform",
           "laws": [
             {
               "name": "Serfdom",
@@ -480,6 +494,7 @@
         {
           "name": "Colonization",
           "id": "colonization",
+          "link": "https://vic3.paradoxwikis.com/Economy_laws#Colonization",
           "laws": [
             {
               "name": "No Colonial Affairs",
@@ -506,6 +521,7 @@
         {
           "name": "Policing",
           "id": "policing",
+          "link": "https://vic3.paradoxwikis.com/Economy_laws#Policing",
           "laws": [
             {
               "name": "No Police",
@@ -532,6 +548,7 @@
         {
           "name": "Education System",
           "id": "education",
+          "link": "https://vic3.paradoxwikis.com/Economy_laws#Education_System",
           "laws": [
             {
               "name": "No Schools",
@@ -563,6 +580,7 @@
         {
           "name": "Health System",
           "id": "health",
+          "link": "https://vic3.paradoxwikis.com/Economy_laws#Health_System",
           "laws": [
             {
               "name": "No Health System",
@@ -591,10 +609,12 @@
     {
       "name": "Human Rights",
       "id": "rights",
+      "link": "https://vic3.paradoxwikis.com/Human_rights_laws",
       "categories": [
         {
           "name": "Free Speech",
           "id": "speech",
+          "link": "https://vic3.paradoxwikis.com/Human_rights_laws#Free_Speech",
           "laws": [
             {
               "name": "Outlawed Dissent",
@@ -621,6 +641,7 @@
         {
           "name": "Labor Rights",
           "id": "labor",
+          "link": "https://vic3.paradoxwikis.com/Human_rights_laws#Labor_Rights",
           "laws": [
             {
               "name": "No Workers' Rights",
@@ -642,6 +663,7 @@
         {
           "name": "Children's Rights",
           "id": "children",
+          "link": "https://vic3.paradoxwikis.com/Human_rights_laws#Children's_Rights",
           "laws": [
             {
               "name": "Child Labor Allowed",
@@ -663,6 +685,7 @@
         {
           "name": "Rights of Women",
           "id": "women",
+          "link": "https://vic3.paradoxwikis.com/Human_rights_laws#Rights_of_Women",
           "laws": [
             {
               "name": "Legal Guardianship",
@@ -694,6 +717,7 @@
         {
           "name": "Welfare",
           "id": "welfare",
+          "link": "https://vic3.paradoxwikis.com/Human_rights_laws#Welfare",
           "laws": [
             {
               "name": "No Social Security",
@@ -725,6 +749,7 @@
         {
           "name": "Migration",
           "id": "migration",
+          "link": "https://vic3.paradoxwikis.com/Human_rights_laws#Migration",
           "laws": [
             {
               "name": "No Migration Controls",
@@ -746,6 +771,7 @@
         {
           "name": "Slavery",
           "id": "slavery",
+          "link": "https://vic3.paradoxwikis.com/Human_rights_laws#Slavery",
           "laws": [
             {
               "name": "Slavery Banned",
@@ -777,6 +803,7 @@
         {
           "name": "Labor Associations",
           "id": "associations",
+          "link": "https://vic3.paradoxwikis.com/Human_rights_laws#Labor_Associations",
           "laws": [
             {
               "name": "Guild System",
