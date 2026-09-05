@@ -16,7 +16,7 @@ async function loadLaws() {
             const lawElement = document.createElement("div")
             lawElement.className = "law"
             lawElement.dataset.category = category.id
-            lawElement.title = law.description
+            lawElement.title = `${law.name}\n\n${law.description}`
             const icon = document.createElement("img")
             icon.className = "icon"
             icon.src = law.icon
@@ -59,7 +59,7 @@ function openLawMenu(group, category, lawElement) {
         const lawName = document.createElement("div")
         lawName.className = "lawName"
         lawName.textContent = law.name
-        option.title = law.description
+        option.title = `${law.name}\n\n${law.description}`
         option.append(icon, categoryName, lawName)
         menu.appendChild(option)
         option.addEventListener("click", event => {
