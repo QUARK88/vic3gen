@@ -19,11 +19,15 @@ body {
     scrollbar-color: #808080 #202020;
 }
 
+body {
+    padding-bottom: 8px;
+}
+
 #groups {
     display: flex;
     flex-direction: row;
     gap: 16px;
-    padding: 16px;
+    padding: 8px;
 }
 
 .group {
@@ -49,6 +53,8 @@ body {
     font-size: 20px;
     color: #989090;
     margin-bottom: 8px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .law {
@@ -162,4 +168,12 @@ body {
     font-weight: bold;
     text-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000;
     font-size: 24px;
+}
+
+@media only screen and (max-width: 1280px) {
+
+    html,
+    body {
+        width: fit-content;
+    }
 }
