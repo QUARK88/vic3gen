@@ -1,0 +1,3265 @@
+{
+    "north_german": {
+        "name": "North German",
+        "color": "#3E4D64",
+        "religion": "protestant",
+        "heritage": "Germanic",
+        "language": "Germanophone",
+        "graphics": "european",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "south_german": {
+        "name": "South German",
+        "color": "#417373",
+        "religion": "catholic",
+        "heritage": "Germanic",
+        "language": "Germanophone",
+        "graphics": "european",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "ashkenazi": {
+        "name": "Ashkenazi",
+        "color": "#FCD032",
+        "religion": "jewish",
+        "heritage": "Ashkenazi",
+        "language": "Yiddish",
+        "graphics": "european",
+        "tradition": [
+            "Israelite"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "dutch": {
+        "name": "Dutch",
+        "color": "#EDAA79",
+        "religion": "protestant",
+        "heritage": "Netherlandish",
+        "language": "Dutch",
+        "graphics": "european",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "flemish": {
+        "name": "Flemish",
+        "color": "#2B8DAC",
+        "religion": "catholic",
+        "heritage": "Netherlandish",
+        "language": "Dutch",
+        "graphics": "european",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "wallonian": {
+        "name": "Wallonian",
+        "color": "#7E4DBD",
+        "religion": "catholic",
+        "heritage": "Netherlandish",
+        "language": "Francophone",
+        "graphics": "european",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "boer": {
+        "name": "Boer",
+        "color": "#DB952C",
+        "religion": "protestant",
+        "heritage": "African Settler",
+        "language": "Dutch",
+        "graphics": "european",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "griqua": {
+        "name": "Griqua",
+        "color": "#5C7B83",
+        "religion": "protestant",
+        "heritage": "Southern Bantu",
+        "language": "Dutch",
+        "graphics": "european",
+        "ethnicity": "african_diaspora"
+    },
+    "alemannic": {
+        "name": "Alemannic",
+        "color": "#B35F5F",
+        "religion": "protestant",
+        "heritage": "Germanic",
+        "language": "Germanophone",
+        "graphics": "european",
+        "tradition": [
+            "Helvetic"
+        ],
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "swedish": {
+        "name": "Swedish",
+        "color": "#44529E",
+        "religion": "protestant",
+        "heritage": "Nordic",
+        "language": "Scandinavian",
+        "graphics": "european",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "danish": {
+        "name": "Danish",
+        "color": "#DB6B6B",
+        "religion": "protestant",
+        "heritage": "Nordic",
+        "language": "Scandinavian",
+        "graphics": "european",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "norwegian": {
+        "name": "Norwegian",
+        "color": "#874564",
+        "religion": "protestant",
+        "heritage": "Nordic",
+        "language": "Scandinavian",
+        "graphics": "european",
+        "obsession": [
+            "fish"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "icelandic": {
+        "name": "Icelandic",
+        "color": "#6E5094",
+        "religion": "protestant",
+        "heritage": "Nordic",
+        "language": "Scandinavian",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "finnish": {
+        "name": "Finnish",
+        "color": "#DBDBDB",
+        "religion": "protestant",
+        "heritage": "Nordic",
+        "language": "Finnic",
+        "graphics": "european",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "sami": {
+        "name": "Sámi",
+        "color": "#72B38C",
+        "religion": "protestant",
+        "heritage": "Sami",
+        "language": "Sami",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "british": {
+        "name": "English",
+        "color": "#D29C8C",
+        "religion": "protestant",
+        "heritage": "British",
+        "language": "Anglophone",
+        "graphics": "european",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "irish": {
+        "name": "Irish",
+        "color": "#3A8A42",
+        "religion": "catholic",
+        "heritage": "British",
+        "language": "Gaelic",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "australian": {
+        "name": "Australian",
+        "color": "#5774AD",
+        "religion": "protestant",
+        "heritage": "British",
+        "language": "Anglophone",
+        "graphics": "european",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "north_italian": {
+        "name": "North Italian",
+        "color": "#A0DBB1",
+        "religion": "catholic",
+        "heritage": "Italic",
+        "language": "Italian",
+        "graphics": "european",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "south_italian": {
+        "name": "South Italian",
+        "color": "#614D75",
+        "religion": "catholic",
+        "heritage": "Italic",
+        "language": "Italian",
+        "graphics": "european",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "maltese": {
+        "name": "Maltese",
+        "color": "#8F9491",
+        "religion": "catholic",
+        "heritage": "Italic",
+        "language": "Arabic",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "basque": {
+        "name": "Basque",
+        "color": "#DBB960",
+        "religion": "catholic",
+        "heritage": "Iberian",
+        "language": "Basque",
+        "graphics": "european",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "spanish": {
+        "name": "Spanish",
+        "color": "#DBD660",
+        "religion": "catholic",
+        "heritage": "Iberian",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "catalan": {
+        "name": "Catalan",
+        "color": "#DB9460",
+        "religion": "catholic",
+        "heritage": "Iberian",
+        "language": "Occitano-Romance",
+        "graphics": "european",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "portuguese": {
+        "name": "Portuguese",
+        "color": "#BBDB60",
+        "religion": "catholic",
+        "heritage": "Iberian",
+        "language": "Lusophone",
+        "graphics": "european",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "french": {
+        "name": "French",
+        "color": "#4C769B",
+        "religion": "catholic",
+        "heritage": "Gallic",
+        "language": "Francophone",
+        "graphics": "French",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "occitan": {
+        "name": "Occitan",
+        "color": "#A4C1DF",
+        "religion": "catholic",
+        "heritage": "Gallic",
+        "language": "Occitano-Romance",
+        "graphics": "French",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "breton": {
+        "name": "Breton",
+        "color": "#F2EE94",
+        "religion": "catholic",
+        "heritage": "Gallic",
+        "language": "Brythonic",
+        "graphics": "French",
+        "ethnicity": "caucasian"
+    },
+    "croat": {
+        "name": "Croatian",
+        "color": "#B1B2BD",
+        "religion": "catholic",
+        "heritage": "South Slavic",
+        "language": "South Slavic",
+        "graphics": "balkan",
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "slavic"
+    },
+    "serb": {
+        "name": "Serbian",
+        "color": "#946D74",
+        "religion": "orthodox",
+        "heritage": "South Slavic",
+        "language": "South Slavic",
+        "graphics": "balkan",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "slavic"
+    },
+    "bulgarian": {
+        "name": "Bulgarian",
+        "color": "#6D947D",
+        "religion": "orthodox",
+        "heritage": "South Slavic",
+        "language": "Bulgarian",
+        "graphics": "balkan",
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "slavic"
+    },
+    "albanian": {
+        "name": "Albanian",
+        "color": "#70552D",
+        "religion": "sunni",
+        "heritage": "Albanian",
+        "language": "Albanian",
+        "graphics": "balkan",
+        "tradition": [
+            "Rumelian"
+        ],
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "slavic"
+    },
+    "slovene": {
+        "name": "Slovene",
+        "color": "#9FAE60",
+        "religion": "catholic",
+        "heritage": "South Slavic",
+        "language": "Slovene",
+        "graphics": "balkan",
+        "ethnicity": "slavic"
+    },
+    "bosniak": {
+        "name": "Bosniak",
+        "color": "#439494",
+        "religion": "sunni",
+        "heritage": "South Slavic",
+        "language": "South Slavic",
+        "graphics": "balkan",
+        "tradition": [
+            "Rumelian"
+        ],
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "slavic"
+    },
+    "romanian": {
+        "name": "Romanian",
+        "color": "#0.1EB851EB851EB80.68F5C28F5C28F40.8A3D70A3D70A4",
+        "religion": "orthodox",
+        "heritage": "Romanian",
+        "language": "Eastern Romance",
+        "graphics": "balkan",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "slavic"
+    },
+    "hungarian": {
+        "name": "Hungarian",
+        "color": "#477050",
+        "religion": "catholic",
+        "heritage": "Magyar",
+        "language": "Hungarian",
+        "graphics": "balkan",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "slavic"
+    },
+    "polish": {
+        "name": "Polish",
+        "color": "#806363",
+        "religion": "catholic",
+        "heritage": "West Slavic",
+        "language": "West Slavic",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "slavic"
+    },
+    "lithuanian": {
+        "name": "Lithuanian",
+        "color": "#6ED4A3",
+        "religion": "catholic",
+        "heritage": "Baltic",
+        "language": "Baltic",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "slavic"
+    },
+    "czech": {
+        "name": "Czech",
+        "color": "#ACAFFC",
+        "religion": "catholic",
+        "heritage": "West Slavic",
+        "language": "West Slavic",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "slavic"
+    },
+    "slovak": {
+        "name": "Slovak",
+        "color": "#89C9C9",
+        "religion": "catholic",
+        "heritage": "West Slavic",
+        "language": "West Slavic",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "slavic"
+    },
+    "russian": {
+        "name": "Russian",
+        "color": "#395E3C",
+        "religion": "orthodox",
+        "heritage": "East Slavic",
+        "language": "East Slavic",
+        "graphics": "european",
+        "tradition": [
+            "Russosphere"
+        ],
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "slavic"
+    },
+    "byelorussian": {
+        "name": "Byelorussian",
+        "color": "#638A6C",
+        "religion": "orthodox",
+        "heritage": "East Slavic",
+        "language": "East Slavic",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "slavic"
+    },
+    "ukrainian": {
+        "name": "Ukrainian",
+        "color": "#9E9C6C",
+        "religion": "orthodox",
+        "heritage": "East Slavic",
+        "language": "East Slavic",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "slavic"
+    },
+    "ugrian": {
+        "name": "Ugrian",
+        "color": "#6C9E9E",
+        "religion": "animist",
+        "heritage": "Siberian",
+        "language": "Ugric",
+        "graphics": "decentralised_americas",
+        "ethnicity": "circumpolar"
+    },
+    "latvian": {
+        "name": "Latvian",
+        "color": "#A14259",
+        "religion": "protestant",
+        "heritage": "Baltic",
+        "language": "Baltic",
+        "graphics": "european",
+        "ethnicity": "slavic"
+    },
+    "estonian": {
+        "name": "Estonian",
+        "color": "#3B3647",
+        "religion": "protestant",
+        "heritage": "Baltic",
+        "language": "Finnic",
+        "graphics": "european",
+        "ethnicity": "slavic"
+    },
+    "greek": {
+        "name": "Greek",
+        "color": "#7A4357",
+        "religion": "orthodox",
+        "heritage": "Greek",
+        "language": "Greek",
+        "graphics": "balkan",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "slavic"
+    },
+    "georgian": {
+        "name": "Georgian",
+        "color": "#526E51",
+        "religion": "orthodox",
+        "heritage": "Georgian",
+        "language": "Georgian",
+        "graphics": "european",
+        "tradition": [
+            "Caucasian"
+        ],
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "slavic"
+    },
+    "armenian": {
+        "name": "Armenian",
+        "color": "#857D3C",
+        "religion": "oriental_orthodox",
+        "heritage": "Armenian",
+        "language": "Armenian",
+        "graphics": "european",
+        "tradition": [
+            "Caucasian"
+        ],
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "slavic"
+    },
+    "sephardic": {
+        "name": "Sephardim",
+        "color": "#343B1C",
+        "religion": "jewish",
+        "heritage": "Sephardic",
+        "language": "Ladino",
+        "graphics": "european",
+        "tradition": [
+            "Israelite",
+            "Rumelian"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "turkish": {
+        "name": "Turkish",
+        "color": "#CC6A70",
+        "religion": "sunni",
+        "heritage": "Anatolian",
+        "language": "Oghuz",
+        "graphics": "arabic",
+        "tradition": [
+            "Rumelian"
+        ],
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "arab"
+    },
+    "azerbaijani": {
+        "name": "Azerbaijani",
+        "color": "#424169",
+        "religion": "shiite",
+        "heritage": "Anatolian",
+        "language": "Oghuz",
+        "graphics": "arabic",
+        "tradition": [
+            "Caucasian",
+            "Persianate"
+        ],
+        "ethnicity": "arab"
+    },
+    "north_caucasian": {
+        "name": "North Caucasian",
+        "color": "#FBFCBB",
+        "religion": "sunni",
+        "heritage": "North Caucasian",
+        "language": "Avaric",
+        "graphics": "european",
+        "tradition": [
+            "Caucasian"
+        ],
+        "ethnicity": "North Caucasian"
+    },
+    "maghrebi": {
+        "name": "Maghrebi",
+        "color": "#244D20",
+        "religion": "sunni",
+        "heritage": "Arab",
+        "language": "Arabic",
+        "graphics": "arabic",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "arab"
+    },
+    "misri": {
+        "name": "Misri",
+        "color": "#E2DA70",
+        "religion": "sunni",
+        "heritage": "Arab",
+        "language": "Arabic",
+        "graphics": "arabic",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "arab"
+    },
+    "mashriqi": {
+        "name": "Mashriqi",
+        "color": "#5EB562",
+        "religion": "shiite",
+        "heritage": "Arab",
+        "language": "Arabic",
+        "graphics": "arabic",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "arab"
+    },
+    "bedouin": {
+        "name": "Bedouin",
+        "color": "#9AA459",
+        "religion": "sunni",
+        "heritage": "Arab",
+        "language": "Arabic",
+        "graphics": "arabic",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "arab"
+    },
+    "berber": {
+        "name": "berber",
+        "color": "#667334",
+        "religion": "sunni",
+        "heritage": "Berber",
+        "language": "Berber",
+        "graphics": "arabic",
+        "ethnicity": "arab"
+    },
+    "persian": {
+        "name": "Persian",
+        "color": "#8F7651",
+        "religion": "shiite",
+        "heritage": "Iranian",
+        "language": "Persian",
+        "graphics": "arabic",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "arab"
+    },
+    "uzbek": {
+        "name": "Uzbek",
+        "color": "#965551",
+        "religion": "sunni",
+        "heritage": "Uzbek",
+        "language": "Karluk",
+        "graphics": "east_asian",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "central_asian"
+    },
+    "kazak": {
+        "name": "Kazakh",
+        "color": "#53662E",
+        "religion": "sunni",
+        "heritage": "Kipchak",
+        "language": "Kipchak",
+        "graphics": "east_asian",
+        "ethnicity": "central_asian"
+    },
+    "kirgiz": {
+        "name": "Kyrgyz",
+        "color": "#3E4929",
+        "religion": "sunni",
+        "heritage": "Kipchak",
+        "language": "Kipchak",
+        "graphics": "east_asian",
+        "ethnicity": "central_asian"
+    },
+    "tajik": {
+        "name": "Tajik",
+        "color": "#7A7F6F",
+        "religion": "sunni",
+        "heritage": "Iranian",
+        "language": "Persian",
+        "graphics": "east_asian",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "central_asian"
+    },
+    "uighur": {
+        "name": "Uighur",
+        "color": "#545C6D",
+        "religion": "sunni",
+        "heritage": "Uighur",
+        "language": "Karluk",
+        "graphics": "east_asian",
+        "ethnicity": "central_asian"
+    },
+    "pashtun": {
+        "name": "Pashtun",
+        "color": "#826599",
+        "religion": "sunni",
+        "heritage": "Iranian",
+        "language": "Pashto",
+        "graphics": "south_asian",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "indian"
+    },
+    "baluchi": {
+        "name": "Baluchi",
+        "color": "#AB576B",
+        "religion": "sunni",
+        "heritage": "Iranian",
+        "language": "Baluchi",
+        "graphics": "south_asian",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "indian"
+    },
+    "hazara": {
+        "name": "Hazara",
+        "color": "#CCAFE3",
+        "religion": "shiite",
+        "heritage": "Hazaran",
+        "language": "Persian",
+        "graphics": "east_asian",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "central_asian"
+    },
+    "turkmen": {
+        "name": "Turkmen",
+        "color": "#BF97BE",
+        "religion": "sunni",
+        "heritage": "Turkmen",
+        "language": "Oghuz",
+        "graphics": "east_asian",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "arab"
+    },
+    "kurdish": {
+        "name": "Kurdish",
+        "color": "#6392C9",
+        "religion": "sunni",
+        "heritage": "Iranian",
+        "language": "Kurdish",
+        "graphics": "arabic",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "arab"
+    },
+    "tatar": {
+        "name": "Tatar",
+        "color": "#364447",
+        "religion": "sunni",
+        "heritage": "Tatar",
+        "language": "Kipchak",
+        "graphics": "east_asian",
+        "tradition": [
+            "Russosphere"
+        ],
+        "ethnicity": "central_asian"
+    },
+    "mongol": {
+        "name": "Mongol",
+        "color": "#4A7D9B",
+        "religion": "gelugpa",
+        "heritage": "Mongolian",
+        "language": "Mongolian",
+        "graphics": "east_asian",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "central_asian"
+    },
+    "kalmyk": {
+        "name": "Kalmyk",
+        "color": "#FAB603",
+        "religion": "gelugpa",
+        "heritage": "Mongolian",
+        "language": "Mongolian",
+        "graphics": "east_asian",
+        "tradition": [
+            "Russosphere"
+        ],
+        "ethnicity": "central_asian"
+    },
+    "siberian": {
+        "name": "Siberian",
+        "color": "#6BD6D6",
+        "religion": "animist",
+        "heritage": "Siberian",
+        "language": "Ewenic",
+        "graphics": "east_asian",
+        "ethnicity": "circumpolar"
+    },
+    "yakut": {
+        "name": "Yakut",
+        "color": "#648041",
+        "religion": "orthodox",
+        "heritage": "Siberian",
+        "language": "Siberian",
+        "graphics": "east_asian",
+        "ethnicity": "circumpolar"
+    },
+    "tibetan": {
+        "name": "Tibetan",
+        "color": "#847956",
+        "religion": "gelugpa",
+        "heritage": "Tibetan",
+        "language": "Tibetan",
+        "graphics": "east_asian",
+        "tradition": [
+            "Himalayan"
+        ],
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "asian"
+    },
+    "assamese": {
+        "name": "Assamese",
+        "color": "#70879C",
+        "religion": "hindu",
+        "heritage": "Assamese",
+        "language": "Eastern Hindi",
+        "graphics": "south_asian",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "indian"
+    },
+    "bihari": {
+        "name": "Bihari",
+        "color": "#B3819C",
+        "religion": "hindu",
+        "heritage": "Gangetic",
+        "language": "Magadhan",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "manipuri": {
+        "name": "Manipuri",
+        "color": "#CBAFF0",
+        "religion": "hindu",
+        "heritage": "Eastern Highlands",
+        "language": "Meitei",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "nepali": {
+        "name": "Nepali",
+        "color": "#B08EBD",
+        "religion": "hindu",
+        "heritage": "Himalayan",
+        "language": "Pahari",
+        "graphics": "east_asian",
+        "tradition": [
+            "Himalayan"
+        ],
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "asian"
+    },
+    "oriya": {
+        "name": "Oria",
+        "color": "#BD7989",
+        "religion": "hindu",
+        "heritage": "Gangetic",
+        "language": "Magadhan",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "sinhala": {
+        "name": "Sinhala",
+        "color": "#4A3637",
+        "religion": "theravada",
+        "heritage": "Insular",
+        "language": "Southern Indic",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "avadhi": {
+        "name": "Avadhi",
+        "color": "#594A32",
+        "religion": "hindu",
+        "heritage": "Gangetic",
+        "language": "Hindustani",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "panjabi": {
+        "name": "Punjabi",
+        "color": "#BDB3AA",
+        "religion": "sikh",
+        "heritage": "Indusine",
+        "language": "Northwestern Indic",
+        "graphics": "south_asian",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "indian"
+    },
+    "kashmiri": {
+        "name": "Kashmiri",
+        "color": "#B693C7",
+        "religion": "sunni",
+        "heritage": "Kashmiri",
+        "language": "Dardic",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "sindi": {
+        "name": "Sindi",
+        "color": "#B26AD4",
+        "religion": "sunni",
+        "heritage": "Indusine",
+        "language": "Northwestern Indic",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "rajput": {
+        "name": "Rajput",
+        "color": "#D5E6C1",
+        "religion": "hindu",
+        "heritage": "Rajasthani",
+        "language": "Western Indic",
+        "graphics": "south_asian",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "indian"
+    },
+    "kannada": {
+        "name": "Kannada",
+        "color": "#6E52A8",
+        "religion": "hindu",
+        "heritage": "Deccani",
+        "language": "Tamil-Tulu",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "malayalam": {
+        "name": "Malayalam",
+        "color": "#A8774A",
+        "religion": "hindu",
+        "heritage": "Carnatic",
+        "language": "Tamil-Tulu",
+        "graphics": "south_asian",
+        "obsession": [
+            "fruit"
+        ],
+        "ethnicity": "indian"
+    },
+    "telegu": {
+        "name": "Telugu",
+        "color": "#446F96",
+        "religion": "hindu",
+        "heritage": "Deccani",
+        "language": "South-Central",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "vietnamese": {
+        "name": "Vietnamese",
+        "color": "#537A4D",
+        "religion": "mahayana",
+        "heritage": "Vietnamese",
+        "language": "Vietic",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    },
+    "khmer": {
+        "name": "Khmer",
+        "color": "#DB8165",
+        "religion": "theravada",
+        "heritage": "Cambodian",
+        "language": "Khmeric",
+        "graphics": "east_asian",
+        "ethnicity": "south_east_asian"
+    },
+    "batak": {
+        "name": "Batak",
+        "color": "#AABDAA",
+        "religion": "animist",
+        "heritage": "Insulindian",
+        "language": "Batak",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "dayak": {
+        "name": "Dayak",
+        "color": "#92B389",
+        "religion": "animist",
+        "heritage": "Insulindian",
+        "language": "Dayak",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "malagasy": {
+        "name": "Malagasy",
+        "color": "#79A37D",
+        "religion": "animist",
+        "heritage": "East African",
+        "language": "Malagasy",
+        "graphics": "Polynesian",
+        "ethnicity": "Polynesian"
+    },
+    "filipino": {
+        "name": "Pilipino",
+        "color": "#D1DB60",
+        "religion": "catholic",
+        "heritage": "Insulindian",
+        "language": "Philippinic",
+        "graphics": "east_asian",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "south_east_asian"
+    },
+    "filipino_hispanophone": {
+        "name": "Filipino",
+        "color": "#D1DB60",
+        "religion": "catholic",
+        "heritage": "Insulindian",
+        "language": "Hispanophone",
+        "graphics": "east_asian",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "south_east_asian"
+    },
+    "filipino_mestizo": {
+        "name": "Filipino Mestizo",
+        "color": "#D1DB60",
+        "religion": "catholic",
+        "heritage": "Insulindian",
+        "language": "Hispanophone",
+        "graphics": "east_asian",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "south_east_asian"
+    },
+    "tagalog": {
+        "name": "Tagalog",
+        "color": "#C3272B",
+        "religion": "catholic",
+        "heritage": "Insulindian",
+        "language": "Philippinic",
+        "graphics": "east_asian",
+        "ethnicity": "south_east_asian"
+    },
+    "visayan": {
+        "name": "Visayan",
+        "color": "#0077BE",
+        "religion": "catholic",
+        "heritage": "Insulindian",
+        "language": "Philippinic",
+        "graphics": "east_asian",
+        "ethnicity": "south_east_asian"
+    },
+    "ilocano": {
+        "name": "Ilocano",
+        "color": "#1F3D73",
+        "religion": "catholic",
+        "heritage": "Insulindian",
+        "language": "Philippinic",
+        "graphics": "east_asian",
+        "ethnicity": "south_east_asian"
+    },
+    "lumad": {
+        "name": "Lumad",
+        "color": "#A0001E",
+        "religion": "animist",
+        "heritage": "Insulindian",
+        "language": "Philippinic",
+        "graphics": "east_asian",
+        "ethnicity": "south_east_asian"
+    },
+    "moro": {
+        "name": "Moro",
+        "color": "#1F9957",
+        "religion": "sunni",
+        "heritage": "Insulindian",
+        "language": "Philippinic",
+        "graphics": "east_asian",
+        "ethnicity": "south_east_asian"
+    },
+    "javan": {
+        "name": "Javan",
+        "color": "#994E72",
+        "religion": "sunni",
+        "heritage": "Insulindian",
+        "language": "Malay",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "moluccan": {
+        "name": "Moluccan",
+        "color": "#6D8265",
+        "religion": "sunni",
+        "heritage": "Insulindian",
+        "language": "Moluccan",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "thai": {
+        "name": "Thai",
+        "color": "#697894",
+        "religion": "theravada",
+        "heritage": "Tai",
+        "language": "Siamese",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "mon": {
+        "name": "Mon",
+        "color": "#A1D1AE",
+        "religion": "theravada",
+        "heritage": "Burmese",
+        "language": "Monic",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "khmu": {
+        "name": "Khmu",
+        "color": "#BDAAAA",
+        "religion": "animist",
+        "heritage": "Khmu",
+        "language": "Khmuic",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "lao": {
+        "name": "Lao",
+        "color": "#735C99",
+        "religion": "theravada",
+        "heritage": "Tai",
+        "language": "Laotian",
+        "graphics": "east_asian",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "asian"
+    },
+    "shan": {
+        "name": "Shan",
+        "color": "#585E5B",
+        "religion": "theravada",
+        "heritage": "Tai",
+        "language": "Shan",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "burmese": {
+        "name": "Burmese",
+        "color": "#615838",
+        "religion": "theravada",
+        "heritage": "Burmese",
+        "language": "Burmic",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "kachin": {
+        "name": "Kachin",
+        "color": "#E8FC97",
+        "religion": "animist",
+        "heritage": "Burmese",
+        "language": "Kachinic",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "karen": {
+        "name": "Karen",
+        "color": "#726F78",
+        "religion": "theravada",
+        "heritage": "Burmese",
+        "language": "Karenic",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "japanese": {
+        "name": "Japanese",
+        "color": "#59A659A659A6",
+        "religion": "mahayana",
+        "heritage": "Japanese",
+        "language": "Japanese",
+        "graphics": "east_asian",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "asian"
+    },
+    "manchu": {
+        "name": "Manchu",
+        "color": "#E9CF54",
+        "religion": "confucian",
+        "heritage": "Manchu",
+        "language": "Jurchenic",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    },
+    "han": {
+        "name": "Han",
+        "color": "#BE5030",
+        "religion": "confucian",
+        "heritage": "Han",
+        "language": "Mandarin",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "obsession": [
+            "opium"
+        ],
+        "ethnicity": "asian"
+    },
+    "korean": {
+        "name": "Korean",
+        "color": "#565733",
+        "religion": "confucian",
+        "heritage": "Korean",
+        "language": "Korean",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "asian"
+    },
+    "ainu": {
+        "name": "Ainu",
+        "color": "#808080",
+        "religion": "animist",
+        "heritage": "Ainu",
+        "language": "Ainu",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "hakka": {
+        "name": "Hakka",
+        "color": "#574831",
+        "religion": "confucian",
+        "heritage": "Han",
+        "language": "Hakka",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    },
+    "miao": {
+        "name": "Miao",
+        "color": "#455580",
+        "religion": "animist",
+        "heritage": "Miao",
+        "language": "Hmong",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    },
+    "min": {
+        "name": "Min",
+        "color": "#775BC7",
+        "religion": "confucian",
+        "heritage": "Han",
+        "language": "Min",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    },
+    "zhuang": {
+        "name": "Zhuang",
+        "color": "#E099BB",
+        "religion": "animist",
+        "heritage": "Tai",
+        "language": "Zhuang",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    },
+    "yi": {
+        "name": "Yi",
+        "color": "#854165",
+        "religion": "animist",
+        "heritage": "Yi",
+        "language": "Yi",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    },
+    "yue": {
+        "name": "Yue",
+        "color": "#5C4063",
+        "religion": "confucian",
+        "heritage": "Han",
+        "language": "Yue",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    },
+    "polynesian": {
+        "name": "Polynesian",
+        "color": "#7355A6",
+        "religion": "animist",
+        "heritage": "Polynesian",
+        "language": "Polynesian",
+        "graphics": "Polynesian",
+        "obsession": [
+            "fruit"
+        ],
+        "ethnicity": "Polynesian"
+    },
+    "hawaiian": {
+        "name": "Hawaiian",
+        "color": "#7C9971",
+        "religion": "protestant",
+        "heritage": "Polynesian",
+        "language": "Polynesian",
+        "graphics": "Polynesian",
+        "ethnicity": "Polynesian"
+    },
+    "melanesian": {
+        "name": "Melanesian",
+        "color": "#BA63B1",
+        "religion": "animist",
+        "heritage": "Melanesian",
+        "language": "Melanesian",
+        "graphics": "Polynesian",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "Polynesian"
+    },
+    "micronesian": {
+        "name": "Micronesian",
+        "color": "#83D48B",
+        "religion": "animist",
+        "heritage": "Micronesian",
+        "language": "Micronesian",
+        "graphics": "Polynesian",
+        "ethnicity": "Polynesian"
+    },
+    "maori": {
+        "name": "Māori",
+        "color": "#846DA1",
+        "religion": "animist",
+        "heritage": "Polynesian",
+        "language": "Polynesian",
+        "graphics": "Polynesian",
+        "ethnicity": "Polynesian"
+    },
+    "yuanzhumin": {
+        "name": "Yuanzhumin",
+        "color": "#488A22",
+        "religion": "animist",
+        "heritage": "Formosan",
+        "language": "Formosan",
+        "graphics": "Polynesian",
+        "ethnicity": "Polynesian"
+    },
+    "aborigine": {
+        "name": "aborigine",
+        "color": "#9C8570",
+        "religion": "animist",
+        "heritage": "Australian",
+        "language": "Aboriginal",
+        "graphics": "Polynesian",
+        "ethnicity": "Polynesian"
+    },
+    "zapotec": {
+        "name": "Zapotec",
+        "color": "#92C78D",
+        "religion": "catholic",
+        "heritage": "Mesoamerican",
+        "language": "Zapotecan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "mayan": {
+        "name": "Maya",
+        "color": "#83818C",
+        "religion": "catholic",
+        "heritage": "Mesoamerican",
+        "language": "Mayan",
+        "graphics": "decentralised_americas",
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "native_american"
+    },
+    "nahua": {
+        "name": "Nahua",
+        "color": "#45615C",
+        "religion": "catholic",
+        "heritage": "Mesoamerican",
+        "language": "Nahuan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "tarascan": {
+        "name": "Tarascan",
+        "color": "#91BFBF",
+        "religion": "catholic",
+        "heritage": "Mesoamerican",
+        "language": "Tarascan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "quechua": {
+        "name": "Quechua",
+        "color": "#B0A089",
+        "religion": "catholic",
+        "heritage": "Andean",
+        "language": "Quechuan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "guarani": {
+        "name": "Guarani",
+        "color": "#C26D2E",
+        "religion": "animist",
+        "heritage": "Guarani",
+        "language": "Guarani",
+        "graphics": "decentralised_americas",
+        "obsession": [
+            "fruit"
+        ],
+        "ethnicity": "native_american"
+    },
+    "aimara": {
+        "name": "Aimara",
+        "color": "#BD5E51",
+        "religion": "catholic",
+        "heritage": "Andean",
+        "language": "Aymaran",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "amazonian": {
+        "name": "Amazonian",
+        "color": "#3F9658",
+        "religion": "animist",
+        "heritage": "Amazonian",
+        "language": "Amazonian",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "patagonian": {
+        "name": "Patagonian",
+        "color": "#D1E6AE",
+        "religion": "animist",
+        "heritage": "Patagonian",
+        "language": "Chonan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "guajiro": {
+        "name": "Guajiro",
+        "color": "#DDF84B",
+        "religion": "catholic",
+        "heritage": "Caribbean",
+        "language": "Guajiro",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "tupinamba": {
+        "name": "Tupinamba",
+        "color": "#8AB5A5",
+        "religion": "animist",
+        "heritage": "Atlantic",
+        "language": "Tupi",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "metis": {
+        "name": "Métis",
+        "color": "#C86F3E",
+        "religion": "catholic",
+        "heritage": "Subarctic Indian",
+        "language": "Métis",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "dakota": {
+        "name": "Dakota",
+        "color": "#5D6685",
+        "religion": "animist",
+        "heritage": "Subarctic Indian",
+        "language": "Siouan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "cherokee": {
+        "name": "Cherokee",
+        "color": "#699128",
+        "religion": "protestant",
+        "heritage": "Subarctic Indian",
+        "language": "Cherokee",
+        "graphics": "decentralised_americas",
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "native_american"
+    },
+    "muskogean": {
+        "name": "Muskogean",
+        "color": "#96AB89",
+        "religion": "protestant",
+        "heritage": "Subarctic Indian",
+        "language": "Creek",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "pueblo": {
+        "name": "Pueblo",
+        "color": "#E2ED9D",
+        "religion": "animist",
+        "heritage": "Southwest Indian",
+        "language": "Hopi",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "inuit": {
+        "name": "Inuit",
+        "color": "#F5FCFC",
+        "religion": "animist",
+        "heritage": "Circumpolar",
+        "language": "Eskimoan",
+        "graphics": "east_asian",
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "circumpolar"
+    },
+    "cree": {
+        "name": "Cree",
+        "color": "#A7F294",
+        "religion": "animist",
+        "heritage": "Subarctic Indian",
+        "language": "Cree",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "navajo": {
+        "name": "Navajo",
+        "color": "#8C99BD",
+        "religion": "animist",
+        "heritage": "Southwest Indian",
+        "language": "Apachean",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "athabaskan": {
+        "name": "Athabaskan",
+        "color": "#606C40",
+        "religion": "animist",
+        "heritage": "Circumpolar",
+        "language": "Athabaskan",
+        "graphics": "decentralised_americas",
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "native_american"
+    },
+    "salish": {
+        "name": "Salish",
+        "color": "#49768A",
+        "religion": "animist",
+        "heritage": "Northwest Coast Indian",
+        "language": "Salish",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "nez_perce": {
+        "name": "Nez Perce",
+        "color": "#B37F62",
+        "religion": "animist",
+        "heritage": "Plateau Indian",
+        "language": "Sahaptian",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "siouan": {
+        "name": "Siouan",
+        "color": "#FCEEA4",
+        "religion": "animist",
+        "heritage": "Plains Indian",
+        "language": "Siouan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "comanche": {
+        "name": "Comanche",
+        "color": "#5E462F",
+        "religion": "animist",
+        "heritage": "Plains Indian",
+        "language": "Numic",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "algonquian": {
+        "name": "Algonquian",
+        "color": "#D1DBBA",
+        "religion": "animist",
+        "heritage": "Eastern Woodlands Indian",
+        "language": "Algonquian",
+        "graphics": "decentralised_americas",
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "native_american"
+    },
+    "iroquoian": {
+        "name": "Iroquoian",
+        "color": "#E9740A",
+        "religion": "animist",
+        "heritage": "Eastern Woodlands Indian",
+        "language": "Iroquoian",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "caddoan": {
+        "name": "Caddoan",
+        "color": "#D9D34C",
+        "religion": "animist",
+        "heritage": "Plains Indian",
+        "language": "Caddoan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "paiute": {
+        "name": "Paiute",
+        "color": "#CC997C",
+        "religion": "animist",
+        "heritage": "Great Basin Indian",
+        "language": "Numic",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "hokan": {
+        "name": "Hokan",
+        "color": "#DEA2B8",
+        "religion": "animist",
+        "heritage": "Californian Indian",
+        "language": "Hokan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "apache": {
+        "name": "Apache",
+        "color": "#F0C065",
+        "religion": "animist",
+        "heritage": "Plains Indian",
+        "language": "Apachean",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "oodham": {
+        "name": "O’odham",
+        "color": "#943758",
+        "religion": "animist",
+        "heritage": "Eastern Woodlands Indian",
+        "language": "Piman",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "mixtec": {
+        "name": "Mixtec",
+        "color": "#965046",
+        "religion": "animist",
+        "heritage": "Mesoamerican",
+        "language": "Mixtecan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "muisca": {
+        "name": "Muisca",
+        "color": "#7D0C34",
+        "religion": "animist",
+        "heritage": "Andean",
+        "language": "Muiscan",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "miskito": {
+        "name": "Miskito",
+        "color": "#F0F064",
+        "religion": "protestant",
+        "heritage": "Caribbean",
+        "language": "Miskito",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "cariban": {
+        "name": "Cariban",
+        "color": "#347819",
+        "religion": "animist",
+        "heritage": "Caribbean",
+        "language": "Cariban",
+        "graphics": "decentralised_americas",
+        "ethnicity": "native_american"
+    },
+    "yankee": {
+        "name": "Yankee",
+        "color": "#87CEEB",
+        "religion": "protestant",
+        "heritage": "North American Settler",
+        "language": "Anglophone",
+        "graphics": "european",
+        "obsession": [
+            "coffee",
+            "small_arms"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "dixie": {
+        "name": "Dixie",
+        "color": "#CC9A5B",
+        "religion": "protestant",
+        "heritage": "North American Settler",
+        "language": "Anglophone",
+        "graphics": "european",
+        "obsession": [
+            "tobacco",
+            "small_arms"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "mexican": {
+        "name": "Mexican",
+        "color": "#A65358",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "south_american"
+    },
+    "central_american": {
+        "name": "Central American",
+        "color": "#87A9AB",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "south_american"
+    },
+    "caribeno": {
+        "name": "Caribeño",
+        "color": "#784865",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "obsession": [
+            "sugar"
+        ],
+        "ethnicity": "south_american"
+    },
+    "north_andean": {
+        "name": "North Andean",
+        "color": "#616944",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "south_american"
+    },
+    "south_andean": {
+        "name": "South Andean",
+        "color": "#849C95",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "ethnicity": "south_american"
+    },
+    "peruvian": {
+        "name": "Peruvian",
+        "color": "#A84884",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "ethnicity": "south_american"
+    },
+    "bolivian": {
+        "name": "Bolivian",
+        "color": "#85736B",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "ethnicity": "south_american"
+    },
+    "ecuadorian": {
+        "name": "Ecuadorian",
+        "color": "#6D9C85",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "ethnicity": "south_american"
+    },
+    "chilean": {
+        "name": "Chilean",
+        "color": "#B73E28",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "south_american"
+    },
+    "venezuelan": {
+        "name": "Venezuelan",
+        "color": "#4330AF",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "ethnicity": "south_american"
+    },
+    "argentine": {
+        "name": "Argentine",
+        "color": "#B3D0DD",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "south_american"
+    },
+    "uruguayan": {
+        "name": "Uruguayan",
+        "color": "#D5D2BB",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "ethnicity": "south_american"
+    },
+    "paraguayan": {
+        "name": "Paraguayan",
+        "color": "#8CC03F",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "ethnicity": "native_american"
+    },
+    "colombian": {
+        "name": "Colombian",
+        "color": "#2F4EB9",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "ethnicity": "south_american"
+    },
+    "platinean": {
+        "name": "Platinean",
+        "color": "#586385",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Hispanophone",
+        "graphics": "european",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "south_american"
+    },
+    "brazilian": {
+        "name": "Brazilian",
+        "color": "#306666",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Lusophone",
+        "graphics": "Brazilian",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "south_american"
+    },
+    "sulista": {
+        "name": "Sulista",
+        "color": "#518787",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Lusophone",
+        "graphics": "Brazilian",
+        "obsession": [
+            "meat"
+        ],
+        "ethnicity": "south_american"
+    },
+    "nordestino": {
+        "name": "Nordestino",
+        "color": "#468C6F",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Lusophone",
+        "graphics": "Brazilian",
+        "obsession": [
+            "wine"
+        ],
+        "ethnicity": "south_american"
+    },
+    "amazonic": {
+        "name": "Amazonic",
+        "color": "#468C6F",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Lusophone",
+        "graphics": "Brazilian",
+        "ethnicity": "south_american"
+    },
+    "paulista": {
+        "name": "Paulista",
+        "color": "#454899",
+        "religion": "catholic",
+        "heritage": "Latin American Settler",
+        "language": "Lusophone",
+        "graphics": "Brazilian",
+        "ethnicity": "south_american"
+    },
+    "afro_american": {
+        "name": "Afro-American",
+        "color": "#3D3B37",
+        "religion": "protestant",
+        "heritage": "African Diaspora",
+        "language": "Anglophone",
+        "graphics": "african",
+        "ethnicity": "african_diaspora"
+    },
+    "afro_caribbean": {
+        "name": "Afro-Caribbean",
+        "color": "#3D523C",
+        "religion": "protestant",
+        "heritage": "African Diaspora",
+        "language": "Patois",
+        "graphics": "african",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "african_diaspora"
+    },
+    "afro_caribeno": {
+        "name": "Afro-Caribeño",
+        "color": "#2E522D",
+        "religion": "catholic",
+        "heritage": "African Diaspora",
+        "language": "Hispanophone",
+        "graphics": "african",
+        "ethnicity": "african_diaspora"
+    },
+    "afro_brazilian": {
+        "name": "Afro-Brazilian",
+        "color": "#756380",
+        "religion": "catholic",
+        "heritage": "African Diaspora",
+        "language": "Lusophone",
+        "graphics": "african",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "african_diaspora"
+    },
+    "afro_antillean": {
+        "name": "Afro-Antillean",
+        "color": "#3A474A",
+        "religion": "catholic",
+        "heritage": "African Diaspora",
+        "language": "Creole",
+        "graphics": "european",
+        "ethnicity": "african_diaspora"
+    },
+    "akan": {
+        "name": "Akan",
+        "color": "#4F4478",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Akan",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "bambara": {
+        "name": "Bambara",
+        "color": "#A0453A",
+        "religion": "animist",
+        "heritage": "Sahelian",
+        "language": "Manding",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "bassa": {
+        "name": "Bassa",
+        "color": "#7B65BA",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Kru",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "dyula": {
+        "name": "Dyula",
+        "color": "#727DB3",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Manding",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "edo": {
+        "name": "Edo",
+        "color": "#687399",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Edo",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "ewe": {
+        "name": "Ewe",
+        "color": "#5A7C9C",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Gbe",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "fon": {
+        "name": "Fon",
+        "color": "#BA8066",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Gbe",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "fulbe": {
+        "name": "Fulbe",
+        "color": "#417687",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Fulani",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "haratin": {
+        "name": "Haratin",
+        "color": "#C77991",
+        "religion": "sunni",
+        "heritage": "Afro-Arab",
+        "language": "Arabic",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "hausa": {
+        "name": "Hausa",
+        "color": "#7E4D80",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Hausa",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "ibibio": {
+        "name": "Ibibio",
+        "color": "#829C73",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Ibibio",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "ibo": {
+        "name": "Ibo",
+        "color": "#7856BF",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Igbo",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "kissi": {
+        "name": "Kissi",
+        "color": "#588F57",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Kissi",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "kru": {
+        "name": "Kru",
+        "color": "#58C777",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Kru",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "mande": {
+        "name": "Mande",
+        "color": "#BA9D52",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Mande",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "bidan": {
+        "name": "Bidan",
+        "color": "#E09E89",
+        "religion": "sunni",
+        "heritage": "Berber",
+        "language": "Arabic",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "mossi": {
+        "name": "Mossi",
+        "color": "#CC74C8",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Mossi",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "senufo": {
+        "name": "Senufo",
+        "color": "#3F5737",
+        "religion": "animist",
+        "heritage": "Sahelian",
+        "language": "Senufo",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "songhai": {
+        "name": "Songhai",
+        "color": "#8C465F",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Songhai",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "tiv": {
+        "name": "Tiv",
+        "color": "#FCFCD4",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Tiv",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "tuareg": {
+        "name": "Tuareg",
+        "color": "#5187D6",
+        "religion": "sunni",
+        "heritage": "Berber",
+        "language": "Berber",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "wolof": {
+        "name": "Wolof",
+        "color": "#535F66",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Wolof",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "yoruba": {
+        "name": "Yoruba",
+        "color": "#F095A0",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Yoruba",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "bakongo": {
+        "name": "Bakongo",
+        "color": "#7B996D",
+        "religion": "animist",
+        "heritage": "Congolese",
+        "language": "Kongo",
+        "graphics": "african",
+        "ethnicity": "central_african"
+    },
+    "baguirmi": {
+        "name": "Baguirmi",
+        "color": "#69BF77",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Bagirmi",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "fang": {
+        "name": "Fang",
+        "color": "#A96BB3",
+        "religion": "animist",
+        "heritage": "Guinean",
+        "language": "Beti",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "kanuri": {
+        "name": "Kanuri",
+        "color": "#BDB5BB",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Kanuri",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "luba": {
+        "name": "Luba",
+        "color": "#8A7180",
+        "religion": "animist",
+        "heritage": "Congolese",
+        "language": "Luba",
+        "graphics": "african",
+        "ethnicity": "central_african"
+    },
+    "lunda": {
+        "name": "Lunda",
+        "color": "#A179BA",
+        "religion": "animist",
+        "heritage": "Congolese",
+        "language": "Lunda",
+        "graphics": "african",
+        "ethnicity": "central_african"
+    },
+    "mongo": {
+        "name": "Mongo",
+        "color": "#42BD2541235F",
+        "religion": "animist",
+        "heritage": "Congolese",
+        "language": "Mongo",
+        "graphics": "african",
+        "ethnicity": "central_african"
+    },
+    "sara": {
+        "name": "Sara",
+        "color": "#8F6B87",
+        "religion": "animist",
+        "heritage": "Sahelian",
+        "language": "Sara",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "teda": {
+        "name": "Tubu",
+        "color": "#A0C464",
+        "religion": "sunni",
+        "heritage": "Sahelian",
+        "language": "Tebu",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "equatorial_bantu": {
+        "name": "Equatorial Bantu",
+        "color": "#E3C260",
+        "religion": "animist",
+        "heritage": "Congolese",
+        "language": "Equatorial Bantu",
+        "graphics": "african",
+        "ethnicity": "central_african"
+    },
+    "fluvian_bantu": {
+        "name": "fluvian_bantu",
+        "color": "#4D363D",
+        "religion": "animist",
+        "heritage": "Congolese",
+        "language": "Fluvial Bantu",
+        "graphics": "african",
+        "ethnicity": "central_african"
+    },
+    "nilotic": {
+        "name": "Nilotic",
+        "color": "#A36A93",
+        "religion": "animist",
+        "heritage": "Nilotic",
+        "language": "Nilotic",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "amhara": {
+        "name": "Amhara",
+        "color": "#6E8C50",
+        "religion": "oriental_orthodox",
+        "heritage": "Abyssinian",
+        "language": "Amharic",
+        "graphics": "african",
+        "ethnicity": "east_african"
+    },
+    "afar": {
+        "name": "Afar",
+        "color": "#C46A8B",
+        "religion": "sunni",
+        "heritage": "Abyssinian",
+        "language": "Afar",
+        "graphics": "african",
+        "ethnicity": "east_african"
+    },
+    "azande": {
+        "name": "Azande",
+        "color": "#4B7194",
+        "religion": "animist",
+        "heritage": "Congolese",
+        "language": "Zande",
+        "graphics": "african",
+        "ethnicity": "central_african"
+    },
+    "baganda": {
+        "name": "Baganda",
+        "color": "#9BB1BA",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Lacustrine Bantu",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "beja": {
+        "name": "Beja",
+        "color": "#E6E173",
+        "religion": "sunni",
+        "heritage": "Abyssinian",
+        "language": "Beja",
+        "graphics": "african",
+        "ethnicity": "east_african"
+    },
+    "dinka": {
+        "name": "Dinka",
+        "color": "#849DF5",
+        "religion": "animist",
+        "heritage": "Nilotic",
+        "language": "Dinka",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "fur": {
+        "name": "Fur",
+        "color": "#C8C0CF",
+        "religion": "sunni",
+        "heritage": "Darfurian",
+        "language": "Fur",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "kikuyu": {
+        "name": "Kikuyu",
+        "color": "#495742",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Kikuyu",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "luo": {
+        "name": "Luo",
+        "color": "#9C9B89",
+        "religion": "animist",
+        "heritage": "Nilotic",
+        "language": "Luo",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "maasai": {
+        "name": "Maasai",
+        "color": "#85545C",
+        "religion": "animist",
+        "heritage": "Nilotic",
+        "language": "Maa",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "nuer": {
+        "name": "Nuer",
+        "color": "#83CCCC",
+        "religion": "animist",
+        "heritage": "Nilotic",
+        "language": "Nuer",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "nuba": {
+        "name": "Nuba",
+        "color": "#7086D4",
+        "religion": "animist",
+        "heritage": "Kordofanian",
+        "language": "Kordofanian",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "oromo": {
+        "name": "Oromo",
+        "color": "#38997A",
+        "religion": "oriental_orthodox",
+        "heritage": "Abyssinian",
+        "language": "Galla",
+        "graphics": "african",
+        "ethnicity": "east_african"
+    },
+    "ruanda": {
+        "name": "Ruanda",
+        "color": "#B84D60",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Lacustrine Bantu",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "rundi": {
+        "name": "Rundi",
+        "color": "#6CBA6A",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Lacustrine Bantu",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "sidama": {
+        "name": "Sidama",
+        "color": "#5B6144",
+        "religion": "oriental_orthodox",
+        "heritage": "Abyssinian",
+        "language": "Sidama",
+        "graphics": "african",
+        "ethnicity": "east_african"
+    },
+    "somali": {
+        "name": "Somali",
+        "color": "#0.F851EB851EB850.B3333333333330.C7AE147AE147B",
+        "religion": "sunni",
+        "heritage": "Somali",
+        "language": "Somali",
+        "graphics": "african",
+        "ethnicity": "east_african"
+    },
+    "sudanese": {
+        "name": "Sudanese",
+        "color": "#A24D68",
+        "religion": "sunni",
+        "heritage": "Afro-Arab",
+        "language": "Arabic",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "sukuma": {
+        "name": "Sukuma",
+        "color": "#68A68C",
+        "religion": "sunni",
+        "heritage": "Eastern Bantu",
+        "language": "Takama",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "swahili": {
+        "name": "Swahili",
+        "color": "#9399CC",
+        "religion": "sunni",
+        "heritage": "Eastern Bantu",
+        "language": "Swahili",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "tigray": {
+        "name": "Tigray",
+        "color": "#0.AE147AE147AE180.6E147AE147AE140.B5C28F5C28F5C",
+        "religion": "oriental_orthodox",
+        "heritage": "Abyssinian",
+        "language": "Tigrinya",
+        "graphics": "african",
+        "ethnicity": "east_african"
+    },
+    "nyamwezi": {
+        "name": "Nyamwezi",
+        "color": "#808B8C",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Nyamwezi",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "lacustrine_bantu": {
+        "name": "Lacustrine Bantu",
+        "color": "#78B9F5",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Lacustrine Bantu",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "chewa": {
+        "name": "Chewa",
+        "color": "#235747",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Nyasa",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "herero": {
+        "name": "Herero",
+        "color": "#80B360",
+        "religion": "animist",
+        "heritage": "Southwest Bantu",
+        "language": "Kavango",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "khoisan": {
+        "name": "Khoisan",
+        "color": "#D6D387",
+        "religion": "animist",
+        "heritage": "Khoisan",
+        "language": "Khoisan",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "lomwe": {
+        "name": "Lomwe",
+        "color": "#CADB63",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Makua",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "makua": {
+        "name": "Makua",
+        "color": "#5A6957",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Makua",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "nguni": {
+        "name": "Nguni",
+        "color": "#A34E43",
+        "religion": "animist",
+        "heritage": "Southern Bantu",
+        "language": "Nguni",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "ovimbundu": {
+        "name": "Ovimbundu",
+        "color": "#9385E6",
+        "religion": "animist",
+        "heritage": "Southwest Bantu",
+        "language": "Umbundu",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "sena": {
+        "name": "Sena",
+        "color": "#DDCE56",
+        "religion": "animist",
+        "heritage": "Southern Bantu",
+        "language": "Nyasa",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "shona": {
+        "name": "Shona",
+        "color": "#4E5C28",
+        "religion": "animist",
+        "heritage": "Southern Bantu",
+        "language": "Shona",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "sotho": {
+        "name": "Sotho",
+        "color": "#5F93B0",
+        "religion": "animist",
+        "heritage": "Southern Bantu",
+        "language": "Sotho",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "tonga": {
+        "name": "Tonga",
+        "color": "#86BA5D",
+        "religion": "animist",
+        "heritage": "Southern Bantu",
+        "language": "Tonga",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "tswana": {
+        "name": "Tswana",
+        "color": "#C07B1F",
+        "religion": "animist",
+        "heritage": "Southern Bantu",
+        "language": "Sotho",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "xhosa": {
+        "name": "Xhosa",
+        "color": "#516482",
+        "religion": "animist",
+        "heritage": "Southern Bantu",
+        "language": "Nguni",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "yao": {
+        "name": "Yao",
+        "color": "#A3434E",
+        "religion": "animist",
+        "heritage": "Eastern Bantu",
+        "language": "Yao",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "zulu": {
+        "name": "Zulu",
+        "color": "#725CA1",
+        "religion": "animist",
+        "heritage": "Southern Bantu",
+        "language": "Nguni",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "kavango_bantu": {
+        "name": "Kavango Bantu",
+        "color": "#99876D",
+        "religion": "animist",
+        "heritage": "Southwest Bantu",
+        "language": "Kavango",
+        "graphics": "african",
+        "ethnicity": "african"
+    },
+    "anglo_canadian": {
+        "name": "Anglo-Canadian",
+        "color": "#6B735A",
+        "religion": "protestant",
+        "heritage": "North American Settler",
+        "language": "Anglophone",
+        "graphics": "european",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "franco_canadian": {
+        "name": "Franco-Canadian",
+        "color": "#5778B5",
+        "religion": "catholic",
+        "heritage": "North American Settler",
+        "language": "Francophone",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "sorb": {
+        "name": "Sorb",
+        "color": "#6A6F80",
+        "religion": "catholic",
+        "heritage": "West Slavic",
+        "language": "West Slavic",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "tuvan": {
+        "name": "Tuvan",
+        "color": "#8CB9CE",
+        "religion": "gelugpa",
+        "heritage": "Siberian",
+        "language": "Siberian",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "corsican": {
+        "name": "Corsican",
+        "color": "#69D6D0",
+        "religion": "catholic",
+        "heritage": "Italic",
+        "language": "Italian",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "yemenite": {
+        "name": "yemenite",
+        "color": "#5C945E",
+        "religion": "shiite",
+        "heritage": "Arab",
+        "language": "Arabic",
+        "graphics": "arabic",
+        "obsession": [
+            "coffee"
+        ],
+        "ethnicity": "arab"
+    },
+    "szekely": {
+        "name": "Szekler",
+        "color": "#5AA0FF",
+        "religion": "catholic",
+        "heritage": "Magyar",
+        "language": "Hungarian",
+        "graphics": "european",
+        "ethnicity": "slavic"
+    },
+    "hindustani": {
+        "name": "Hindustani",
+        "color": "#7B7BE9",
+        "religion": "hindu",
+        "heritage": "Gangetic",
+        "language": "Hindustani",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "lushai": {
+        "name": "Lushai",
+        "color": "#0C7B7B",
+        "religion": "animist",
+        "heritage": "Eastern Highlands",
+        "language": "Mizo",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "bundeli": {
+        "name": "Bundeli",
+        "color": "#7BDE7B",
+        "religion": "hindu",
+        "heritage": "Central",
+        "language": "Hindustani",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "pahari": {
+        "name": "Pahari",
+        "color": "#FFB6C1",
+        "religion": "hindu",
+        "heritage": "Himalayan",
+        "language": "Pahari",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "gondi": {
+        "name": "Gondi",
+        "color": "#7B7B7B",
+        "religion": "hindu",
+        "heritage": "Central",
+        "language": "South-Central",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "bageli": {
+        "name": "Bagheli",
+        "color": "#7B7B7B",
+        "religion": "hindu",
+        "heritage": "Central",
+        "language": "Hindustani",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "chhattisgarhi": {
+        "name": "Chhattisgarhi",
+        "color": "#7A16E8",
+        "religion": "hindu",
+        "heritage": "Central",
+        "language": "Hindustani",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "naga": {
+        "name": "Naga",
+        "color": "#7FC9AA",
+        "religion": "animist",
+        "heritage": "Eastern Highlands",
+        "language": "Naga",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "deccani": {
+        "name": "Deccani",
+        "color": "#E9DE81",
+        "religion": "sunni",
+        "heritage": "Deccani",
+        "language": "Hindustani",
+        "graphics": "south_asian",
+        "ethnicity": "indian"
+    },
+    "gujarati": {
+        "name": "Gujarati",
+        "color": "#594057",
+        "religion": "hindu",
+        "heritage": "Gujarati",
+        "language": "Western Indic",
+        "graphics": "south_asian",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "indian"
+    },
+    "tamil": {
+        "name": "Tamil",
+        "color": "#B34D71",
+        "religion": "hindu",
+        "heritage": "Carnatic",
+        "language": "Tamil-Tulu",
+        "graphics": "south_asian",
+        "obsession": [
+            "sugar"
+        ],
+        "ethnicity": "indian"
+    },
+    "bengali": {
+        "name": "Bengali",
+        "color": "#533A5C",
+        "religion": "sunni",
+        "heritage": "Gangetic",
+        "language": "Magadhan",
+        "graphics": "south_asian",
+        "obsession": [
+            "fruit"
+        ],
+        "ethnicity": "indian"
+    },
+    "marathi": {
+        "name": "Marathi",
+        "color": "#CADB63",
+        "religion": "hindu",
+        "heritage": "Deccani",
+        "language": "Southern Indic",
+        "graphics": "south_asian",
+        "obsession": [
+            "tea"
+        ],
+        "ethnicity": "indian"
+    },
+    "pathan": {
+        "name": "Pathan",
+        "color": "#826599",
+        "religion": "sunni",
+        "heritage": "Iranian",
+        "language": "Hindustani",
+        "graphics": "south_asian",
+        "tradition": [
+            "Persianate"
+        ],
+        "obsession": [
+            "tobacco"
+        ],
+        "ethnicity": "indian"
+    },
+    "welsh": {
+        "name": "Welsh",
+        "color": "#757FAE",
+        "religion": "protestant",
+        "heritage": "British",
+        "language": "Brythonic",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "scottish_gaelic": {
+        "name": "Gael",
+        "color": "#6E90BD",
+        "religion": "protestant",
+        "heritage": "British",
+        "language": "Gaelic",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "scottish": {
+        "name": "Scottish",
+        "color": "#484F7F",
+        "religion": "protestant",
+        "heritage": "British",
+        "language": "Anglophone",
+        "graphics": "european",
+        "obsession": [
+            "liquor"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "galician": {
+        "name": "Galician",
+        "color": "#5EB4BF",
+        "religion": "catholic",
+        "heritage": "Iberian",
+        "language": "Lusophone",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "malay": {
+        "name": "Malay",
+        "color": "#554E59",
+        "religion": "sunni",
+        "heritage": "Insulindian",
+        "language": "Malay",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "bornean": {
+        "name": "Bornean",
+        "color": "#E0E0E0",
+        "religion": "sunni",
+        "heritage": "Insulindian",
+        "language": "Malay",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "sumatran": {
+        "name": "Sumatran",
+        "color": "#927373",
+        "religion": "sunni",
+        "heritage": "Insulindian",
+        "language": "Malay",
+        "graphics": "east_asian",
+        "ethnicity": "asian"
+    },
+    "balinese": {
+        "name": "Balinese",
+        "color": "#FFB266",
+        "religion": "hindu",
+        "heritage": "Insulindian",
+        "language": "Malay",
+        "graphics": "east_asian",
+        "obsession": [
+            "fruit"
+        ],
+        "ethnicity": "asian"
+    },
+    "cajun": {
+        "name": "cajun",
+        "color": "#5470B8",
+        "religion": "catholic",
+        "heritage": "North American Settler",
+        "language": "Francophone",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "assyrian": {
+        "name": "Assyrian",
+        "color": "#FF9C9C",
+        "religion": "oriental_orthodox",
+        "heritage": "Syriac",
+        "language": "Aramaic",
+        "graphics": "arabic",
+        "ethnicity": "arab"
+    },
+    "circassian": {
+        "name": "Circassian",
+        "color": "#3E5637",
+        "religion": "sunni",
+        "heritage": "North Caucasian",
+        "language": "Adyghe",
+        "graphics": "european",
+        "tradition": [
+            "Caucasian"
+        ],
+        "ethnicity": "North Caucasian"
+    },
+    "francoprovencal": {
+        "name": "Franco-Provençal",
+        "color": "#9E290C",
+        "religion": "catholic",
+        "heritage": "Gallic",
+        "language": "Arpitan",
+        "graphics": "French",
+        "tradition": [
+            "Helvetic"
+        ],
+        "obsession": [
+            "sugar"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "chechen": {
+        "name": "Chechen",
+        "color": "#0C3D2D",
+        "religion": "sunni",
+        "heritage": "North Caucasian",
+        "language": "Vainakh",
+        "graphics": "arabic",
+        "tradition": [
+            "Caucasian"
+        ],
+        "ethnicity": "North Caucasian"
+    },
+    "karelian": {
+        "name": "Karelian",
+        "color": "#63A889",
+        "religion": "orthodox",
+        "heritage": "Nordic",
+        "language": "Finnic",
+        "graphics": "european",
+        "ethnicity": "circumpolar"
+    },
+    "bashkir": {
+        "name": "Bashkir",
+        "color": "#6AA58B",
+        "religion": "sunni",
+        "heritage": "Tatar",
+        "language": "Kipchak",
+        "graphics": "east_asian",
+        "tradition": [
+            "Russosphere"
+        ],
+        "ethnicity": "central_asian"
+    },
+    "buryat": {
+        "name": "Buryat",
+        "color": "#CBC634",
+        "religion": "gelugpa",
+        "heritage": "Mongolian",
+        "language": "Buryat",
+        "graphics": "east_asian",
+        "ethnicity": "central_asian"
+    },
+    "mordvin": {
+        "name": "Mordvin",
+        "color": "#DE93E2",
+        "religion": "orthodox",
+        "heritage": "Volga-Uralic",
+        "language": "Mordvinic",
+        "graphics": "east_asian",
+        "ethnicity": "central_asian"
+    },
+    "chuvash": {
+        "name": "Chuvash",
+        "color": "#F97D04",
+        "religion": "orthodox",
+        "heritage": "Tatar",
+        "language": "Oghuric",
+        "graphics": "east_asian",
+        "ethnicity": "central_asian"
+    },
+    "mari": {
+        "name": "Mari",
+        "color": "#8B62C1",
+        "religion": "orthodox",
+        "heritage": "Volga-Uralic",
+        "language": "Mari",
+        "graphics": "east_asian",
+        "ethnicity": "central_asian"
+    },
+    "udmurt": {
+        "name": "Udmurt",
+        "color": "#520C0C",
+        "religion": "orthodox",
+        "heritage": "Volga-Uralic",
+        "language": "Permic",
+        "graphics": "east_asian",
+        "ethnicity": "central_asian"
+    },
+    "mazanderani": {
+        "name": "Mazanderani",
+        "color": "#9E4489",
+        "religion": "shiite",
+        "heritage": "Iranian",
+        "language": "Tabari",
+        "graphics": "arabic",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "arab"
+    },
+    "luri": {
+        "name": "Luri",
+        "color": "#5955C9",
+        "religion": "shiite",
+        "heritage": "Iranian",
+        "language": "Persian",
+        "graphics": "arabic",
+        "tradition": [
+            "Persianate"
+        ],
+        "ethnicity": "arab"
+    },
+    "kho": {
+        "name": "Chitrali",
+        "color": "#7B2C62",
+        "religion": "sunni",
+        "heritage": "Kashmiri",
+        "language": "Dardic",
+        "graphics": "arabic",
+        "ethnicity": "arab"
+    },
+    "champa": {
+        "name": "Champa",
+        "color": "#DBFC03",
+        "religion": "sunni",
+        "heritage": "Insulindian",
+        "language": "Cham",
+        "graphics": "east_asian",
+        "ethnicity": "south_east_asian"
+    },
+    "east_german": {
+        "name": "Eastern German",
+        "color": "#000050",
+        "religion": "protestant",
+        "heritage": "Germanic",
+        "language": "Germanophone",
+        "graphics": "european",
+        "tradition": [
+            "Russosphere"
+        ],
+        "ethnicity": "caucasian"
+    },
+    "promethean": {
+        "name": "promethean",
+        "color": "#E2C26A",
+        "religion": "atheist",
+        "heritage": "heritage_promethean",
+        "language": "language_promethean",
+        "graphics": "european",
+        "obsession": [
+            "fruit",
+            "grain"
+        ],
+        "ethnicity": "promethean_ethnicity"
+    },
+    "asturleonese": {
+        "name": "Asturleonese",
+        "color": "#9FA162",
+        "religion": "catholic",
+        "heritage": "Iberian",
+        "language": "Asturleonese",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "aragonese": {
+        "name": "Aragonese",
+        "color": "#D77326",
+        "religion": "catholic",
+        "heritage": "Iberian",
+        "language": "Aragonese",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "iberian": {
+        "name": "Iberian",
+        "color": "#2C8416",
+        "religion": "atheist",
+        "heritage": "Iberian",
+        "language": "Esperanto",
+        "graphics": "european",
+        "ethnicity": "caucasian"
+    },
+    "ryukyuan": {
+        "name": "Ryukyuan",
+        "color": "#FEC016",
+        "religion": "mahayana",
+        "heritage": "Japanese",
+        "language": "Ryukyuan",
+        "graphics": "east_asian",
+        "tradition": [
+            "Sinosphere"
+        ],
+        "ethnicity": "asian"
+    }
+}

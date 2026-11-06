@@ -89,7 +89,7 @@
             },
             {
               "name": "Census Suffrage",
-              "icon": "icons/power/distribution/census_voting.png",
+              "icon": "icons/power/distribution/census_suffrage.png",
               "description": "Literate men of particular status are given a vote."
             },
             {
@@ -104,8 +104,13 @@
             },
             {
               "name": "Single-Party State",
-              "icon": "icons/power/distribution/single_party_state.png",
+              "icon": "icons/power/distribution/single-party_state.png",
               "description": "The state is governed by a single legal political party, which has a monopoly on all political activity within the nation."
+            },
+            {
+              "name": "Labor Suffrage",
+              "icon": "icons/power/distribution/labor_suffrage.png",
+              "description": "Those who engage in productive labor without drawing profit from other means possess the right to vote."
             },
             {
               "name": "Elder Council",
@@ -114,7 +119,7 @@
             },
             {
               "name": "Neo-Absolutism",
-              "icon": "icons/power/distribution/neo_absolutism.png",
+              "icon": "icons/power/distribution/neo-absolutism.png",
               "description": "The Head of State rules as an enlightened autocrat, with their rule facilitated by a modern, centralized state apparatus."
             },
             {
@@ -136,7 +141,7 @@
           "laws": [
             {
               "name": "Subjecthood",
-              "icon": "icons/power/citizenship/imperial_subjecthood.png",
+              "icon": "icons/power/citizenship/subjecthood.png",
               "description": "The state defines its people foremostly as subjects of a sovereign, making little effort to encourage any official nationality. Cultures are largely left to their own devices within their own communities."
             },
             {
@@ -161,8 +166,13 @@
             },
             {
               "name": "Multiculturalism",
-              "icon": "icons/power/citizenship/multicultural.png",
+              "icon": "icons/power/citizenship/multiculturalism.png",
               "description": "The state upholds equal citizenship rights for people of all cultural identities, and makes no attempt to officially uphold a certain culture over others. No cultures are discriminated against."
+            },
+            {
+              "name": "Official Nationality",
+              "icon": "icons/power/citizenship/official_nationality.png",
+              "description": "The state considers the Russian people to be the ideal subjects of the sovereign, placing a heavy emphasis upon the assimilation of non-Russians. Non-Russian cultures are discriminated against."
             }
           ]
         },
@@ -198,8 +208,13 @@
             },
             {
               "name": "Millet System",
-              "icon": "icons/power/church/people_of_the_book.png",
+              "icon": "icons/power/church/millet_system.png",
               "description": "The state upholds Sunni Islam as the official religion. Adherents of non-Muslim Abrahamic religions are granted a degree of legal autonomy."
+            },
+            {
+              "name": "Caesaropapism",
+              "icon": "icons/power/church/caesaropapism.png",
+              "description": "The Orthodox Church serves as an organ of the state, with little to no political autonomy. All minority religions are discriminated against."
             }
           ]
         },
@@ -212,6 +227,11 @@
               "name": "Hereditary Bureaucrats",
               "icon": "icons/power/bureaucracy/hereditary_bureaucrats.png",
               "description": "Bureaucrats hold their position through traditional inheritance, passing on the responsiblities to their children."
+            },
+            {
+              "name": "Military Bureaucrats",
+              "icon": "icons/power/bureaucracy/military_bureaucrats.png",
+              "description": "The state bureaucracy is inseparable from the armed forces, which provide the great majority of high-level officials."
             },
             {
               "name": "Appointed Bureaucrats",
@@ -227,6 +247,11 @@
               "name": "Crownland Diets",
               "icon": "icons/power/bureaucracy/crownland_diets.png",
               "description": "Local governance is carried out by traditional assemblies elected from the ranks of the regional nobility."
+            },
+            {
+              "name": "Communal Administration",
+              "icon": "icons/power/bureaucracy/communal_administration.png",
+              "description": "Common administrative tasks are placed under the purview of workers' organizations, with central administration carried out by their elected representatives."
             }
           ]
         },
@@ -256,6 +281,11 @@
               "description": "Large numbers of infantry conscripts can be activated as needed to supplement the professional army."
             },
             {
+              "name": "Revolutionary Guard",
+              "icon": "icons/power/army/revolutionary_guard.png",
+              "description": "The armed forces consist of amalgamated workers' militias, commanded by elected officers."
+            },
+            {
               "name": "Warrior Caste",
               "icon": "icons/power/army/warrior_caste.png",
               "description": "Bearing arms is a privilege limited to an elite warrior strata. Commoners are barred from serving in combatant roles."
@@ -269,22 +299,22 @@
           "laws": [
             {
               "name": "Merchant Navy",
-              "icon": "icons/power/navy/merchant_fleet.png",
+              "icon": "icons/power/navy/merchant_navy.png",
               "description": "The fleet is focused on the propagation and protection of overseas trade and supply."
             },
             {
               "name": "Jeune École",
-              "icon": "icons/power/navy/torpedos.png",
+              "icon": "icons/power/navy/jeune_école.png",
               "description": "A naval model prioritizing the use of smaller, heavily armed ships to combat a larger enemy."
             },
             {
               "name": "Capital Fleet",
-              "icon": "icons/power/navy/ocean_domination.png",
+              "icon": "icons/power/navy/capital_fleet.png",
               "description": "Focused on the construction and maintenance of a mighty battlefleet in order to impress and deter rivals."
             },
             {
               "name": "Diplomatic Fleet",
-              "icon": "icons/power/navy/diplomatic_interest.png",
+              "icon": "icons/power/navy/diplomatic_fleet.png",
               "description": "Prioritizing long-range cruising in order to build and maintain a global diplomatic presence."
             }
           ]
@@ -315,9 +345,24 @@
               "description": "The state's home affairs bureau is solely focused on addressing the grievances of the citizens, and is forbidden from investigating or arresting them without due cause."
             },
             {
+              "name": "Extraordinary Commission",
+              "icon": "icons/power/security/extraordinary_commission.png",
+              "description": "The state maintains a mass organization dedicated to the repression of saboteurs and counter-revolutionaries."
+            },
+            {
               "name": "Shinsengumi",
               "icon": "icons/power/security/shinsengumi.png",
               "description": "The state commissions an elite organization of swordsmen to protect government officials and police the capital."
+            },
+            {
+              "name": "Third Section",
+              "icon": "icons/power/security/third_section.png",
+              "description": "The Imperial Chancellary maintains a secret police bureau tasked with censorship and investigation of religious and political dissent."
+            },
+            {
+              "name": "Okhrana",
+              "icon": "icons/power/security/okhrana.png",
+              "description": "The state maintains a secret police bureau tasked with the monitoring of expatriates and suppression of revolutionary activity."
             }
           ]
         }
@@ -360,7 +405,7 @@
             },
             {
               "name": "Laissez-Faire",
-              "icon": "icons/economy/system/laissez_faire.png",
+              "icon": "icons/economy/system/laissez-faire.png",
               "description": "A liberal economy founded on the principles of comparative advantage and that fewer government interventions means greater growth."
             },
             {
@@ -402,7 +447,7 @@
             },
             {
               "name": "Canton System",
-              "icon": "icons/economy/trade/isolationism.png",
+              "icon": "icons/economy/trade/canton_system.png",
               "description": "A variant of Isolationism where trade is only permitted in a single coastal state."
             },
             {
@@ -419,17 +464,17 @@
           "laws": [
             {
               "name": "Consumption-Based Taxation",
-              "icon": "icons/economy/taxation/consumption_based_taxation.png",
+              "icon": "icons/economy/taxation/consumption-based_taxation.png",
               "description": "A tax system where there are no direct income or per-capita taxes and instead revenue is raised through taxing the consumption of goods."
             },
             {
               "name": "Land-Based Taxation",
-              "icon": "icons/economy/taxation/land_based_taxation.png",
+              "icon": "icons/economy/taxation/land-based_taxation.png",
               "description": "A traditional form of land-based taxation, collected mainly from the peasantry."
             },
             {
               "name": "Per-Capita Taxation",
-              "icon": "icons/economy/taxation/per_capita_based_taxation.png",
+              "icon": "icons/economy/taxation/per-capita_taxation.png",
               "description": "A tax system that disproportionally taxes the poor through a combination of income and per-capita taxes."
             },
             {
@@ -461,12 +506,12 @@
             },
             {
               "name": "Commercialized Agriculture",
-              "icon": "icons/economy/land/commercial_agriculture.png",
+              "icon": "icons/economy/land/commercialized_agriculture.png",
               "description": "Agriculture is a business like any other, subject to market forces and owned by capital."
             },
             {
               "name": "Peasant Proprietorship",
-              "icon": "icons/economy/land/freeholders.png",
+              "icon": "icons/economy/land/peasant_proprietorship.png",
               "description": "Agricultural land is largely owned by independent peasant-proprietors, with a scattering of larger commercial estates."
             },
             {
@@ -481,12 +526,12 @@
             },
             {
               "name": "Latifundias",
-              "icon": "icons/economy/land/tenant_farmers.png",
+              "icon": "icons/economy/land/latifundias.png",
               "description": "Agricultural land is dominated by vast estates owned by seasonally employed and poorly paid day-laborers."
             },
             {
               "name": "Homesteading",
-              "icon": "icons/economy/land/freeholders.png",
+              "icon": "icons/economy/land/homesteading.png",
               "description": "Farmers lay claim to plots of land which they work alongside their hired laborers."
             }
           ]
@@ -500,6 +545,11 @@
               "name": "No Colonial Affairs",
               "icon": "icons/economy/colonization/no_colonial_affairs.png",
               "description": "The country does not engage in any formal type of colonization and cannot establish colonies."
+            },
+            {
+              "name": "Internal Colonization",
+              "icon": "icons/economy/colonization/internal_colonization.png",
+              "description": "This country is engaged in efforts to pacify and settle communities of its dominant culture across its internal frontier."
             },
             {
               "name": "Frontier Colonization",
@@ -530,17 +580,17 @@
             },
             {
               "name": "Local Police Force",
-              "icon": "icons/economy/policing/local_police.png",
+              "icon": "icons/economy/policing/local_police_force.png",
               "description": "This country has local police forces operating."
             },
             {
               "name": "Dedicated Police Force",
-              "icon": "icons/economy/policing/dedicated_police.png",
+              "icon": "icons/economy/policing/dedicated_police_force.png",
               "description": "This country has a dedicated police force with standardized training."
             },
             {
               "name": "Militarized Police Force",
-              "icon": "icons/economy/policing/militarized_police.png",
+              "icon": "icons/economy/policing/militarized_police_force.png",
               "description": "By giving your police force military equipment and military training, their effectiveness at carrying out your will increases."
             }
           ]
@@ -572,7 +622,7 @@
             },
             {
               "name": "Terakoya",
-              "icon": "icons/economy/education/private_schools.png",
+              "icon": "icons/economy/education/terakoya.png",
               "description": "The education of commoners is left to a decentralized system of privately-owned Terakoya, or temple schools."
             }
           ]
@@ -589,7 +639,7 @@
             },
             {
               "name": "Charity Hospitals",
-              "icon": "icons/economy/health/charitable_health_system.png",
+              "icon": "icons/economy/health/charity_hospitals.png",
               "description": "Charitable organizations—often religious ones—provide some help to anyone who's sick or dying, to the degree they are able."
             },
             {
@@ -655,7 +705,7 @@
             },
             {
               "name": "Workers' Protections",
-              "icon": "icons/rights/labor/worker_protections.png",
+              "icon": "icons/rights/labor/workers_protections.png",
               "description": "Workers enjoy extensive protections that are enshrined in law."
             }
           ]
@@ -689,12 +739,12 @@
           "laws": [
             {
               "name": "Legal Guardianship",
-              "icon": "icons/rights/women/no_womens_rights.png",
+              "icon": "icons/rights/women/legal_guardianship.png",
               "description": "Women are legally under the guardianship of men and enjoy very few rights."
             },
             {
               "name": "Propertied Women",
-              "icon": "icons/rights/women/women_own_property.png",
+              "icon": "icons/rights/women/propertied_women.png",
               "description": "Whether inherited or otherwise earned, even women have the right and duty to own and cherish their possessions."
             },
             {
@@ -731,7 +781,7 @@
             },
             {
               "name": "Wage Subsidies",
-              "icon": "icons/rights/welfare/wage_controls.png",
+              "icon": "icons/rights/welfare/wage_subsidies.png",
               "description": "All who are willing to work have a right to eat. No man should lack the means to provide for his family."
             },
             {
@@ -741,7 +791,7 @@
             },
             {
               "name": "Šef Paternalism",
-              "icon": "icons/rights/welfare/sefs_distribute_funds.png",
+              "icon": "icons/rights/welfare/šef_paternalism.png",
               "description": "A system where tribal chiefs distrubute funds to the family members in need, as well as to the church and their armed men."
             }
           ]
@@ -817,7 +867,7 @@
             },
             {
               "name": "Anti-Strike Laws",
-              "icon": "icons/rights/associations/anti_strike_laws.png",
+              "icon": "icons/rights/associations/anti-strike_laws.png",
               "description": "Whilst the formation of labor associations is permitted, strikes and certain forms of collective bargaining are prohibited."
             },
             {
