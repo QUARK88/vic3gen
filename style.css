@@ -21,7 +21,34 @@ body {
 
 body {
     padding-bottom: 8px;
+    width: 100%;
 }
+
+#nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 32px;
+    width: 100%;
+    gap: 2px;
+    background-color: #f0f0e0;
+}
+
+#nav>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f0f0e0;
+    font-size: 16px;
+    background-color: #201810;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#nav>div:hover {
+    filter: brightness(1.5);
+}
+
+#sectionLaws {}
 
 #groups {
     display: flex;
@@ -167,6 +194,121 @@ body {
     color: #f0f0e0;
     font-weight: bold;
     text-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000;
+    font-size: 24px;
+}
+
+#sectionInterestGroup {
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 100%;
+    padding: 32px;
+    gap: 32px;
+}
+
+#getAJob {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    align-items: center;
+    color: #f0f0e0;
+    font-weight: bold;
+    gap: 4px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#getAJobTitle {
+    grid-column: span 2;
+}
+
+#getAJob>button {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    height: 56px;
+    width: 160px;
+    padding: 12px;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f0f0e0;
+    background: linear-gradient(90deg, #202828 0%, #384858 33.3%, #384858 66.7%, #202828);
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px #ffffff20, inset -2px -2px #00000060;
+    text-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000;
+    cursor: pointer;
+    outline-offset: -2px;
+    box-sizing: border-box;
+}
+
+#getAJob>button>img {
+    height: 32px;
+    width: 32px;
+}
+
+#pieChart {
+    position: relative;
+    z-index: 0;
+    height: 512px;
+    width: 512px;
+    border-radius: 100%;
+    border: solid 2px #f0f0e0;
+}
+
+#pieChart::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    height: 384px;
+    width: 384px;
+    border-radius: 100%;
+    background-color: #403830;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px #f0f0e0;
+}
+
+#pieIcons {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+#pieIcons img {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    transform: translate(-50%, -50%);
+}
+
+#pieCenter {
+    position: absolute;
+    z-index: 3;
+    height: 384px;
+    width: 384px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    pointer-events: none;
+}
+
+#pieCenter img {
+    height: 128px;
+    width: 128px;
+    object-fit: contain;
+}
+
+#pieCenter span {
+    text-align: center;
+    color: #f0f0e0;
+    font-weight: bold;
     font-size: 24px;
 }
 

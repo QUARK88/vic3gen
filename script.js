@@ -32,7 +32,7 @@ async function loadLaws() {
             lawAmount.textContent = category.laws.length
             const lawSwap = document.createElement("img")
             lawSwap.className = "lawSwap"
-            lawSwap.src = "./icons/swap.png"
+            lawSwap.src = "./icons/site/swap.png"
             lawSwap.draggable = false
             lawElement.append(icon, categoryName, lawName, lawAmount, lawSwap)
             groupElement.appendChild(lawElement)

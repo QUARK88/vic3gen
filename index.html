@@ -17,26 +17,47 @@
 </head>
 
 <body>
-    <div id="groups">
-        <div id="power" class="group">
-            <a class="groupName" id="powerName" title="See the wiki page"></a>
+    <div id="nav">
+        <div onclick="show('sectionLaws')">Law set generator</div>
+        <div onclick="show('sectionInterestGroup')">Find your interest group weights</div>
+    </div>
+    <div id="sectionLaws">
+        <div id="groups">
+            <div id="power" class="group">
+                <a class="groupName" id="powerName" title="See the wiki page"></a>
+            </div>
+            <div id="economy" class="group">
+                <a class="groupName" id="economyName" title="See the wiki page"></a>
+            </div>
+            <div id="rights" class="group">
+                <a class="groupName" id="rightsName" title="See the wiki page"></a>
+            </div>
         </div>
-        <div id="economy" class="group">
-            <a class="groupName" id="economyName" title="See the wiki page"></a>
+        <div id="buttons">
+            <button id="reset">Reset</button>
+            <button id="randomize">Randomize</button>
+            <button id="download">Download</button>
         </div>
-        <div id="rights" class="group">
-            <a class="groupName" id="rightsName" title="See the wiki page"></a>
+        <div id="lawBackdrop">
+            <div id="lawMenu"></div>
         </div>
     </div>
-    <div id="buttons">
-        <button id="reset">Reset</button>
-        <button id="randomize">Randomize</button>
-        <button id="download">Download</button>
-    </div>
-    <div id="lawBackdrop">
-        <div id="lawMenu"></div>
+    <div id="sectionInterestGroup">
+        <div id="getAJob">
+            <div id="getAJobTitle">Choose a profession:</div>
+        </div>
+        <div id="pieChart">
+            <div id="pieIcons"></div>
+            <div id="pieCenter">
+                <span>Most likely interest group:</span>
+                <img id="pieCenterIcon">
+                <span id="pieCenterName"></span>
+            </div>
+        </div>
+        <div></div>
     </div>
 </body>
 <script type="module" src="./script.js"></script>
+<script src="./script2.js"></script>
 
 </html>
