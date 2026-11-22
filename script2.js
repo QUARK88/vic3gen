@@ -12,7 +12,7 @@ const groups = {
     "Industrialists": "#e98e3c",
     "Intelligentsia": "#ffda6d",
     "Landowners": "#9c85f3",
-    "Petite bourgeoisie": "#5b9ee1",
+    "Petite Bourgeoisie": "#5b9ee1",
     "Rural Folk": "#7abe43",
     "Trade Unions": "#c64e4a",
     "Inactive": "#a0a0a0"
@@ -109,5 +109,5 @@ function generatePieChart() {
 
     chart.style.background = `conic-gradient(${gradient.join(", ")})`
 }
-show("sectionInterestGroup")
 generatePieChart()
+show("sectionLaws")
