@@ -3,14 +3,14 @@
 
 <head>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="image/x-icon" href="./icons/power/distribution/technocracy.png">
+    <link rel="icon" type="image/x-icon" href="./icons/Power Structure/Distribution of Power/technocracy.png">
     <title>Victoria 3 Generator</title>
     <meta property="og:site_name" content="quark88.github.io/vic3gen">
     <meta property="og:title" content="Victoria 3 Generator">
     <meta property="og:type" content="website">
     <meta property="og:description" content="This can be used to generate sets of Victoria 3 laws.">
     <meta property="og:url" content="https://quark88.github.io/vic3gen">
-    <meta property="og:image" content="https://quark88.github.io/vic3gen/icons/power/distribution/technocracy.png">
+    <meta property="og:image" content="https://quark88.github.io/vic3gen/icons/Power Structure/Distribution of Power/technocracy.png">
     <meta name="theme-color" content="#00a0ff" data-react-helmet="true">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,18 +43,33 @@
         </div>
     </div>
     <div id="sectionInterestGroup">
-        <div id="getAJob">
-            <div id="getAJobTitle">Choose a profession:</div>
-        </div>
         <div id="pieChart">
-            <div id="pieIcons"></div>
             <div id="pieCenter">
                 <span>Most likely interest group:</span>
                 <img id="pieCenterIcon">
                 <span id="pieCenterName"></span>
             </div>
+            <div id="pieIcons"></div>
         </div>
-        <div></div>
+        <div id="pieList"></div>
+        <div id="profession"></div>
+        <div id="religion"></div>
+        <div id="sector"></div>
+        <div id="acceptance"></div>
+        <div id="bureaucracyLaw"></div>
+        <div id="armyLaw"></div>
+        <div id="churchLaw"></div>
+        <div id="landLaw"></div>
+        <div id="colonialLaw"></div>
+        <div id="valueInputs">
+            <label for="literacy">Literacy</label>
+            <input id="literacy" type="number" min="0" max="100" step="1" value="50">
+            <label for="standardOfLiving">Standard of Living</label>
+            <input id="standardOfLiving" type="number" min="1" max="99" step="1" value="15">
+            <div id="sol"></div>
+            <div>Of official religion?</div>
+            <button id="isStateReligion" type="button"></button>
+        </div>
     </div>
 </body>
 <script type="module" src="./script.js"></script>

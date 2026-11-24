@@ -2,72 +2,107 @@ import * as htmlToImage from "https://cdn.jsdelivr.net/npm/html-to-image@1.11.13
 
 let lawsData
 
+const groupIds = {
+    "Power Structure": "power",
+    "Economy": "economy",
+    "Human Rights": "rights"
+}
+
+function getIconPath(group, category, law) {
+    return `./icons/${[group, category, law].map(encodeURIComponent).join("/")}.png`
+}
+
+function getLawElement(group, category) {
+    const groupElement = document.getElementById(groupIds[group])
+    return [...groupElement.querySelectorAll(".law")].find(element => element.dataset.category === category)
+}
+
 async function loadLaws() {
     const response = await fetch("./laws.json")
     lawsData = await response.json()
-    lawsData.groups.forEach(group => {
-        const groupElement = document.getElementById(group.id)
-        const groupName = groupElement.querySelector(".groupName")
-        groupName.textContent = group.name
-        groupName.href = group.link
-        group.categories.forEach(category => {
-            const savedLaw = localStorage.getItem(`law_${group.id}_${category.id}`)
-            const law = category.laws.find(law => law.name === savedLaw) || category.laws[0]
+
+    for (const [groupName, categories] of Object.entries(lawsData)) {
+        const groupElement = document.getElementById(groupIds[groupName])
+        const groupTitle = groupElement.querySelector(".groupName")
+        groupTitle.textContent = groupName
+        groupTitle.removeAttribute("href")
+
+        for (const [categoryName, laws] of Object.entries(categories)) {
+            const savedLaw = localStorage.getItem(`law_${groupName}_${categoryName}`)
+            const lawName = Object.hasOwn(laws, savedLaw) ? savedLaw : Object.keys(laws)[0]
+            const law = laws[lawName]
+
             const lawElement = document.createElement("div")
             lawElement.className = "law"
-            lawElement.dataset.category = category.id
-            lawElement.title = `${law.name}\n\n${law.description}`
+            lawElement.dataset.category = categoryName
+            lawElement.title = `${lawName}\n\n${law.description}`
+
             const icon = document.createElement("img")
             icon.className = "icon"
-            icon.src = law.icon
+            icon.src = getIconPath(groupName, categoryName, lawName)
             icon.draggable = false
-            const categoryName = document.createElement("div")
-            categoryName.className = "categoryName"
-            categoryName.textContent = category.name
-            const lawName = document.createElement("div")
-            lawName.className = "lawName"
-            lawName.textContent = law.name
-            const lawAmount = document.createElement("div")
-            lawAmount.className = "lawAmount"
-            lawAmount.textContent = category.laws.length
-            const lawSwap = document.createElement("img")
-            lawSwap.className = "lawSwap"
-            lawSwap.src = "./icons/site/swap.png"
-            lawSwap.draggable = false
-            lawElement.append(icon, categoryName, lawName, lawAmount, lawSwap)
+
+            const category = document.createElement("div")
+            category.className = "categoryName"
+            category.textContent = categoryName
+
+            const name = document.createElement("div")
+            name.className = "lawName"
+            name.textContent = lawName
+
+            const amount = document.createElement("div")
+            amount.className = "lawAmount"
+            amount.textContent = Object.keys(laws).length
+
+            const swap = document.createElement("img")
+            swap.className = "lawSwap"
+            swap.src = "./icons/Site/Swap.png"
+            swap.draggable = false
+
+            lawElement.append(icon, category, name, amount, swap)
             groupElement.appendChild(lawElement)
-            lawElement.addEventListener("click", () => openLawMenu(group, category, lawElement))
-        })
-    })
+            lawElement.addEventListener("click", () => openLawMenu(groupName, categoryName, lawElement))
+        }
+    }
+    show("sectionInterestGroup")
 }
 
 function openLawMenu(group, category, lawElement) {
     const backdrop = document.getElementById("lawBackdrop")
     const menu = document.getElementById("lawMenu")
+    const laws = lawsData[group][category]
+
     menu.className = "group"
-    menu.innerHTML = `<a class="groupName" href="${category.link}" title="See the wiki page">${category.name}</a>`
-    category.laws.forEach(law => {
+    menu.innerHTML = `<div class="groupName">${category}</div>`
+
+    for (const [lawName, law] of Object.entries(laws)) {
         const option = document.createElement("div")
         option.className = "law"
+        option.title = `${lawName}\n\n${law.description}`
+
         const icon = document.createElement("img")
         icon.className = "icon"
-        icon.src = law.icon
+        icon.src = getIconPath(group, category, lawName)
         icon.draggable = false
+
         const categoryName = document.createElement("div")
         categoryName.className = "categoryName"
-        categoryName.textContent = category.name
-        const lawName = document.createElement("div")
-        lawName.className = "lawName"
-        lawName.textContent = law.name
-        option.title = `${law.name}\n\n${law.description}`
-        option.append(icon, categoryName, lawName)
+        categoryName.textContent = category
+
+        const name = document.createElement("div")
+        name.className = "lawName"
+        name.textContent = lawName
+
+        option.append(icon, categoryName, name)
         menu.appendChild(option)
+
         option.addEventListener("click", event => {
             event.stopPropagation()
-            setLaw(law, lawElement, group, category)
+            setLaw(lawName, law, lawElement, group, category)
             closeLawMenu()
         })
-    })
+    }
+
     backdrop.classList.add("open")
 }
 
@@ -82,22 +117,20 @@ document.getElementById("lawBackdrop").addEventListener("click", event => {
     if (event.target === event.currentTarget) closeLawMenu()
 })
 
-function setLaw(law, lawElement, group, category) {
-    lawElement.querySelector(".icon").src = law.icon
-    lawElement.querySelector(".lawName").textContent = law.name
-    lawElement.title = `${law.name}\n\n${law.description}`
-    localStorage.setItem(`law_${group.id}_${category.id}`, law.name)
+function setLaw(lawName, law, lawElement, group, category) {
+    lawElement.querySelector(".icon").src = getIconPath(group, category, lawName)
+    lawElement.querySelector(".lawName").textContent = lawName
+    lawElement.title = `${lawName}\n\n${law.description}`
+    localStorage.setItem(`law_${group}_${category}`, lawName)
 }
 
 document.getElementById("reset").addEventListener("click", () => {
-    lawsData.groups.forEach(group => {
-        group.categories.forEach(category => {
-            const lawElement = document.querySelector(
-                `#${group.id} .law[data-category="${category.id}"]`
-            )
-            setLaw(category.laws[0], lawElement, group, category)
-        })
-    })
+    for (const [group, categories] of Object.entries(lawsData)) {
+        for (const [category, laws] of Object.entries(categories)) {
+            const lawName = Object.keys(laws)[0]
+            setLaw(lawName, laws[lawName], getLawElement(group, category), group, category)
+        }
+    }
 })
 
 document.getElementById("download").addEventListener("click", async () => {
@@ -123,16 +156,13 @@ document.getElementById("download").addEventListener("click", async () => {
 })
 
 document.getElementById("randomize").addEventListener("click", () => {
-    lawsData.groups.forEach(group => {
-        group.categories.forEach(category => {
-            const lawElement = document.querySelector(
-                `#${group.id} .law[data-category="${category.id}"]`
-            )
-
-            const law = category.laws[Math.floor(Math.random() * category.laws.length)]
-            setLaw(law, lawElement, group, category)
-        })
-    })
+    for (const [group, categories] of Object.entries(lawsData)) {
+        for (const [category, laws] of Object.entries(categories)) {
+            const lawNames = Object.keys(laws)
+            const lawName = lawNames[Math.floor(Math.random() * lawNames.length)]
+            setLaw(lawName, laws[lawName], getLawElement(group, category), group, category)
+        }
+    }
 })
 
 loadLaws()

@@ -48,7 +48,9 @@ body {
     filter: brightness(1.5);
 }
 
-#sectionLaws {}
+#sectionLaws {
+    flex-direction: column;
+}
 
 #groups {
     display: flex;
@@ -198,52 +200,13 @@ body {
 }
 
 #sectionInterestGroup {
-    grid-template-columns: 1fr 1fr 1fr;
-    min-height: 100%;
-    padding: 32px;
-    gap: 32px;
-}
-
-#getAJob {
-    display: grid;
-    grid-template-columns: 160px 160px;
-    align-items: center;
-    color: #f0f0e0;
-    font-weight: bold;
-    gap: 4px;
-    text-align: center;
-    font-size: 24px;
-}
-
-#getAJobTitle {
-    grid-column: span 2;
-}
-
-#getAJob>button {
-    display: flex;
     flex-direction: row;
-    gap: 8px;
-    height: 56px;
-    width: 160px;
-    padding: 12px;
-    align-items: center;
-    justify-content: start;
-    font-weight: bold;
-    font-size: 16px;
-    color: #f0f0e0;
-    background: linear-gradient(90deg, #202828 0%, #384858 33.3%, #384858 66.7%, #202828);
-    border: none;
-    border-radius: 8px;
-    box-shadow: inset 2px 2px #ffffff20, inset -2px -2px #00000060;
-    text-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000;
-    cursor: pointer;
-    outline-offset: -2px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+    padding: 16px;
+    gap: 16px;
     box-sizing: border-box;
-}
-
-#getAJob>button>img {
-    height: 32px;
-    width: 32px;
 }
 
 #pieChart {
@@ -274,6 +237,8 @@ body {
     inset: 0;
     z-index: 2;
     pointer-events: none;
+    height: 512px;
+    width: 512px;
 }
 
 #pieIcons img {
@@ -310,6 +275,136 @@ body {
     color: #f0f0e0;
     font-weight: bold;
     font-size: 24px;
+}
+
+#pieList {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    color: #f0f0e0;
+    font-weight: bold;
+    font-size: 24px;
+    gap: 8px;
+}
+
+.pieListItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pieListItem img {
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
+}
+
+.pieListItem div:last-child {
+    margin-left: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: 260px;
+    grid-auto-rows: fit-content(56px);
+    align-items: center;
+    gap: 4px;
+}
+
+.menuTitle {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 24px;
+    color: #f0f0e0;
+    font-weight: bold;
+}
+
+.menuButton {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    height: 56px;
+    padding: 12px;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f0f0e0;
+    background: linear-gradient(90deg, #202828 0%, #384858 33.3%, #384858 66.7%, #202828);
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px #ffffff20, inset -2px -2px #00000060;
+    text-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.menuButton>img {
+    height: 32px;
+    width: 32px;
+}
+
+.selected {
+    box-shadow: inset 2px 2px #f0f0e0, inset -2px -2px #f0f0e0, inset 2px -2px #f0f0e0, inset -2px 2px #f0f0e0;
+}
+
+#professionGrid,
+#religionGrid {
+    grid-template-columns: 160px 160px;
+}
+
+#valueInputs {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f0f0e0;
+    gap: 8px;
+    width: 176px;
+    text-align: center;
+    align-items: center;
+}
+
+#valueInputs>input,
+#valueInputs>button {
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    height: 48px;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#sol {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+#sol>img {
+    height: 40px;
+    width: 40px;
+}
+
+#valueInputs>button {
+    cursor: pointer;
+}
+
+#valueInputs>button>img {
+    height: 24px;
+    width: 24px;
 }
 
 @media only screen and (max-width: 1280px) {
