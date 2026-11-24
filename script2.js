@@ -319,7 +319,7 @@ const menus = {
     religion: {
         title: "Choose a religion:",
         path: "./icons/Religion/",
-        options: ["Animist", "Atheist", "Catholic", "Confucianism", "Coptic", "Gelugpa", "Hindu", "Ibadi", "Jewish", "Mahayana", "Orthodox", "Protestant", "Shiite", "Shinto", "Sikh", "Sunni", "Theravada"]
+        options: ["Animist", "Atheist", "Catholic", "Confucian", "Coptic", "Gelugpa", "Hindu", "Ibadi", "Jewish", "Mahayana", "Orthodox", "Protestant", "Shiite", "Shinto", "Sikh", "Sunni", "Theravada"]
     },
     sector: {
         title: "Choose an economic sector:",
