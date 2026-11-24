@@ -64,7 +64,7 @@ async function loadLaws() {
             lawElement.addEventListener("click", () => openLawMenu(groupName, categoryName, lawElement))
         }
     }
-    show("sectionLawswh")
+    show("sectionLaws")
 }
 
 function openLawMenu(group, category, lawElement) {
